@@ -2,9 +2,7 @@
 
 ## Problem Statement
 
-Usaha Mikro, Kecil, dan Menengah (UMKM) menghadapi tekanan yang semakin tinggi untuk bertransformasi ke ranah digital seiring dengan perubahan perilaku konsumen dan meningkatnya persaingan berbasis platform. 
-
-Namun, keterbatasan dalam kapabilitas digital, sumber daya, serta kurangnya solusi yang sederhana dan relevan menyebabkan banyak UMKM mengalami keterlambatan—bahkan kegagalan—dalam mengadopsi digitalisasi secara efektif. Hal ini pada akhirnya menghambat pertumbuhan bisnis dan menurunkan daya saing mereka di era ekonomi digital.
+UMKM menghadapi tekanan yang semakin tinggi untuk beralih ke digital akibat perubahan perilaku konsumen dan meningkatnya persaingan berbasis platform. Namun, keterbatasan dalam kapabilitas digital, sumberdaya, serta kurangnya solusi yang sederhana dan relevan menyebabkan banyak UMKM mengalami keterlambatan atau kegagalan dalam mengadopsi digitalisasi secara efektif sehingga menghambat pertumbuhan dan daya saing mereka di era perekonomian digital.
 
 ---
 
@@ -12,9 +10,9 @@ Namun, keterbatasan dalam kapabilitas digital, sumber daya, serta kurangnya solu
 
 Penelitian ini bertujuan untuk menjawab beberapa pertanyaan utama berikut:
 
-1. **Apa saja faktor yang mendorong UMKM untuk mempercepat adopsi digitalisasi?**  
-2. **Apa kendala utama yang menyebabkan keterlambatan atau kegagalan UMKM dalam beralih ke digital?**  
-3. **Fitur utama apa yang paling dibutuhkan UMKM jika mereka memiliki website penjualan sendiri?**
+1. **Faktor apa saja yang memicu UMKM untuk mempercepat mobilisasinya pada digitalization approach?**  
+2. **Apa kendala utama mereka sehingga terdapat keterlambatan atau bahkan belum beralih ke digital mobility?**  
+3. **Main fitur apa yang sekiranya akan paling dibutuhkan mereka semisal mereka berkesempatan untuk memiliki website penjualan sendiri?**
 
 ---
 
