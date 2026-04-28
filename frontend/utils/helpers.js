@@ -1,3 +1,7 @@
+export const API_URL =
+  import.meta.env.VITE_API_URL ||
+  "https://api-umkm-sleman-2026-euhcecfvdvgrexft.indonesiacentral-01.azurewebsites.net/";
+
 /**
  * Format currency to IDR
  */
