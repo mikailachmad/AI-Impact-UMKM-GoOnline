@@ -10,8 +10,10 @@
 
 ---
 
+**LapaKita adalah solusi cerdas berbasis kecerdasan buatan (AI) yang dirancang khusus untuk memecahkan kesulitan digitalisasi UMKM di wilayah Kabupaten Sleman. Proyek ini diajukan untuk AI Impact Challenge - Datathon Dicoding Indonesia.**
+
 > **💡 Akses Langsung (Live Demo):**
-> * **🔗 Frontend (Vercel):** `[ISI LINK VERCEL LU DI SINI, misal: https://lapakita-frontend.vercel.app]`
+> * **🔗 Frontend (Vercel):** `[https://lapakita-frontend.vercel.app]`
 > * **⚙️ Backend API (Azure):** `https://api-umkm-sleman-2026.azurewebsites.net/predict`
 > * **📄 Dokumen Proposal:** Silakan cek di folder `/docs`
 
