@@ -25,7 +25,10 @@ export default function GeneratedWebsite({ umkmData }) {
   const [activeTab, setActiveTab] = useState("catalog");
   const [cartItems, setCartItems] = useState([]);
 
-  // Sample products - bisa di-customize berdasarkan sektor UMKM
+  if (!umkmData) {
+    return null;
+  }
+
   const sampleProducts = [
     {
       id: 1,
@@ -274,7 +277,9 @@ export default function GeneratedWebsite({ umkmData }) {
             <h2 className="section-title">Tentang Kami</h2>
             <div className="card">
               <p className="text-gray-700 mb-4">
-                {umkmData.nama_usaha} adalah UMKM yang berkomitmen memberikan produk terbaik dalam bidang {umkmData.sektor_usaha} dengan kualitas dan harga yang kompetitif.
+                {umkmData.nama_usaha} adalah UMKM yang berkomitmen memberikan
+                produk terbaik dalam bidang {umkmData.sektor_usaha} dengan
+                kualitas dan harga yang kompetitif.
               </p>
               <h3 className="font-bold text-lg mb-3">Informasi Usaha</h3>
               <ul className="space-y-2 text-gray-700">
