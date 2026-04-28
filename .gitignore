@@ -1,1 +1,3 @@
 node_modules
+api-umkm-sleman/.venv/
+git rm -r --cached api-umkm-sleman/.venv

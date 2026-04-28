@@ -63,6 +63,7 @@ export const prepareDataForPrediction = (formData) => {
   return {
     sektor_usaha,
     kapanewon,
+    skala_usaha,
     skala_enc: getSkalaEncoding(skala_usaha),
     log_omset: Math.log1p(omset),
     omset_pct_dalam_skala: calculateOmsetPercentage(omset, skala_usaha),

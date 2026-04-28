@@ -258,18 +258,40 @@ export default function Home() {
             <div>
               <h3 className="font-bold mb-4">LapaKita</h3>
               <p className="text-gray-400 text-sm">
-                Memberdayakan UMKM Sleman melalui teknologi dan inovasi.
+                Kami menawarkan prediksi digitalisasi pada UMKM Anda dengan
+                memasukkan parameter yang dimiliki UMKM. Kemudian, kami juga
+                menawarkan pembuatan toko online siap pakai secara otomatis
+                dengan memasukkan katalog 3 produk unggulan yang bisa
+                ditambahkan UMKM hingga dapat memesan lalu membayar produk.
               </p>
             </div>
             <div>
-              <h3 className="font-bold mb-4">Kontak</h3>
-              <p className="text-gray-400 text-sm">Email: info@lapakita.com</p>
-              <p className="text-gray-400 text-sm">
-                WhatsApp: +62 812-3456-7890
-              </p>
+              <h3 className="font-bold mb-4">Profil Kami</h3>
+              <div className="space-y-3">
+                <div className="text-sm">
+                  <p className="text-gray-300 font-semibold">Mikail Achmad</p>
+                  <p className="text-gray-400">Email: mikailkuliah@gmail.com</p>
+                </div>
+                <div className="text-sm">
+                  <p className="text-gray-300 font-semibold">
+                    Yudha Nata Buana
+                  </p>
+                  <p className="text-gray-400">
+                    Email: yudhanatabuanaacc@gmail.com
+                  </p>
+                </div>
+                <div className="text-sm">
+                  <p className="text-gray-300 font-semibold">
+                    Dimas Ananda Saputra
+                  </p>
+                  <p className="text-gray-400">
+                    Email:dimasanandasaputra04@gmail.com
+                  </p>
+                </div>
+              </div>
             </div>
             <div>
-              <h3 className="font-bold mb-4">Teknologi</h3>
+              <h3 className="font-bold mb-4">Teknologi yang digunakan</h3>
               <p className="text-gray-400 text-sm">
                 Machine Learning • Python • Next.js • Azure
               </p>

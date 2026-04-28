@@ -1,6 +1,22 @@
 import { useState } from "react";
 
 /**
+ * Function untuk format nama menjadi email
+ * Contoh: "Kursus Speak English Please!" -> "kursusspeakenglishplease@gmail.com"
+ */
+const formatEmailFromName = (name) => {
+  if (!name) return "";
+  // Lowercase semua
+  let email = name.toLowerCase();
+  // Hapus semua spasi
+  email = email.replace(/\s+/g, "");
+  // Hapus semua special characters (keep hanya a-z, 0-9)
+  email = email.replace(/[^a-z0-9]/g, "");
+  // Tambah @gmail.com
+  return `${email}@gmail.com`;
+};
+
+/**
  * Component untuk template website UMKM yang di-generate otomatis
  * Props:
  *   - umkmData: data UMKM yang sudah diprediksi
@@ -258,8 +274,7 @@ export default function GeneratedWebsite({ umkmData }) {
             <h2 className="section-title">Tentang Kami</h2>
             <div className="card">
               <p className="text-gray-700 mb-4">
-                Kami adalah UMKM yang berkomitmen memberikan produk terbaik
-                dengan kualitas dan harga yang kompetitif.
+                {umkmData.nama_usaha} adalah UMKM yang berkomitmen memberikan produk terbaik dalam bidang {umkmData.sektor_usaha} dengan kualitas dan harga yang kompetitif.
               </p>
               <h3 className="font-bold text-lg mb-3">Informasi Usaha</h3>
               <ul className="space-y-2 text-gray-700">
@@ -298,15 +313,17 @@ export default function GeneratedWebsite({ umkmData }) {
                   </li>
                   <li className="flex items-center gap-3">
                     {/* <span className="text-2xl">✉️</span> */}
-                    <span>- E-mail: contact@umkm.com</span>
+                    <span>
+                      - Email: {formatEmailFromName(umkmData.nama_usaha)}
+                    </span>
                   </li>
                 </ul>
               </div>
               <div className="card">
                 <h3 className="font-bold text-lg mb-4">Lokasi</h3>
                 <p className="text-gray-700 mb-4">
-                  Jl. Contoh No. 123
-                  <br />
+                  {/* Jl. Contoh No. 123 */}
+                  {/* <br /> */}
                   {umkmData.kapanewon}, Sleman
                   <br />
                   Yogyakarta, Indonesia
@@ -330,9 +347,7 @@ export default function GeneratedWebsite({ umkmData }) {
       <footer className="bg-gray-900 text-white mt-16 py-8">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <p>© 2026 {umkmData.nama_usaha}. Semua hak cipta dilindungi.</p>
-          <p className="text-gray-400 text-sm mt-2">
-            Dibuat dengan nama_tim oleh LapaKita
-          </p>
+          <p className="text-gray-400 text-sm mt-2">Dibuat oleh LapaKita</p>
         </div>
       </footer>
     </div>
