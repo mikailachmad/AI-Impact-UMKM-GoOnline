@@ -1,10 +1,21 @@
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+export const getPrediction = async (dataDariForm) => {
+  const API_URL =
+    process.env.NEXT_PUBLIC_API_URL ||
+    "https://api-umkm-sleman-2026-euhcecfvdvgrexft.indonesiacentral-01.azurewebsites.net/";
 
-const response = await fetch(`${API_URL}/predict`, {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify(data),
-});
+  const response = await fetch(`${API_URL}/predict`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(dataDariForm),
+  });
+
+  if (!response.ok) {
+    throw new Error("Gagal konek ke Azure");
+  }
+
+  const hasil = await response.json();
+  return hasil;
+};
 
 /**
  * Format currency to IDR

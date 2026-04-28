@@ -13,7 +13,7 @@ export default function PredictionResult({
   onGenerateWebsite,
   onReset,
 }) {
-  if (!result) return null;
+  if (!result || !result.probabilitas_persen) return null;
 
   // Debug: lihat apa yang ada di result
   console.log("Result object:", result);
