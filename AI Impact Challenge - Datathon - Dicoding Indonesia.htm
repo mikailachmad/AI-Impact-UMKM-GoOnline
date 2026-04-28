@@ -1,0 +1,1791 @@
+<!DOCTYPE html>
+<html lang="en" data-darkreader-mode="dynamic" data-darkreader-scheme="dark" class="fonts-loaded"><head><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--user-agent" media="screen">@layer {
+html {
+    background-color: var(--darkreader-background-ffffff, #181a1b) !important;
+}
+html {
+    color-scheme: dark !important;
+}
+iframe {
+    color-scheme: dark !important;
+}
+html, body {
+    background-color: var(--darkreader-background-ffffff, #181a1b);
+}
+html, body {
+    border-color: var(--darkreader-border-4c4c4c, #736b5e);
+    color: var(--darkreader-text-000000, #e8e6e3);
+}
+a {
+    color: var(--darkreader-text-0040ff, #3391ff);
+}
+table {
+    border-color: var(--darkreader-border-808080, #545b5e);
+}
+mark {
+    color: var(--darkreader-text-000000, #e8e6e3);
+}
+::placeholder {
+    color: var(--darkreader-text-a9a9a9, #b2aba1);
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: var(--darkreader-background-faffbd, #404400) !important;
+    color: var(--darkreader-text-000000, #e8e6e3) !important;
+}
+::selection {
+    background-color: var(--darkreader-background-0060d4, #004daa) !important;
+    color: var(--darkreader-text-ffffff, #e8e6e3) !important;
+}
+::-moz-selection {
+    background-color: var(--darkreader-background-0060d4, #004daa) !important;
+    color: var(--darkreader-text-ffffff, #e8e6e3) !important;
+}
+}</style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, img.Wirisformula, a[data-testid="headerMediumLogo"]>svg, .d2l-navigation-link-image-container, .d2l-iframe-loading-container, div.mc-ip-hide[style*="background: rgb(255, 255, 255) !important"] {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}
+[data-darkreader-inline-bg] {
+  background: var(--darkreader-inline-bg) !important;
+}
+[data-darkreader-inline-border-short] {
+  border: var(--darkreader-inline-border-short) !important;
+}
+[data-darkreader-inline-border-bottom-short] {
+  border-bottom: var(--darkreader-inline-border-bottom-short) !important;
+}
+[data-darkreader-inline-border-left-short] {
+  border-left: var(--darkreader-inline-border-left-short) !important;
+}
+[data-darkreader-inline-border-right-short] {
+  border-right: var(--darkreader-inline-border-right-short) !important;
+}
+[data-darkreader-inline-border-top-short] {
+  border-top: var(--darkreader-inline-border-top-short) !important;
+}
+[data-darkreader-inline-invert] {
+    filter: invert(100%) hue-rotate(180deg);
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: var(--darkreader-background-ffffff, #181a1b);
+   --darkreader-neutral-text: var(--darkreader-text-000000, #e8e6e3);
+   --darkreader-selection-background: var(--darkreader-background-0060d4, #004daa);
+   --darkreader-selection-text: var(--darkreader-text-ffffff, #e8e6e3);
+}</style><style class="darkreader darkreader--root-vars" media="screen"></style>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="FzBltXnRNKxgd_Ut8VGO0UK4yGI5LGSouseIxa4iHyA">
+        <meta name="robots" content="all">
+            <link rel="canonical" href="https://www.dicoding.com/challenges/968">
+        <link rel="apple-touch-icon" href="https://www.dicoding.com/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="https://www.dicoding.com/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.dicoding.com/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://www.dicoding.com/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://www.dicoding.com/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="https://www.dicoding.com/manifest.json">
+    <link rel="mask-icon" href="https://www.dicoding.com/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#2d3e50">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#181a1b">
+
+    <meta name="author" content="Dicoding Indonesia">
+    <meta name="publisher" content="Dicoding Indonesia">
+
+    <!-- Twitter Card-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@dicoding">
+    <meta name="twitter:creator" content="@dicoding">
+
+    <meta name="csrf-token" content="lONJc60o8gyJJQw7oTbLgqU62qDoBly74TfSY1Vb">
+
+        <meta name="description" content="Microsoft Elevate Training Center - AI Impact Challenge - Datathon">
+    <meta property="og:url" content="https://www.dicoding.com/challenges/968-ai-impact-challenge-datathon?">
+    <meta property="og:title" content="Dicoding Challenge: AI Impact Challenge - Datathon">
+    <meta property="og:description" content="Microsoft Elevate Training Center - AI Impact Challenge - Datathon">
+    <meta property="og:image" content="https://assets.cdn.dicoding.com/original/challenge/dos-c56fba4951e9c309214a81edcd9e780220260401143035.png">
+    <meta property="og:site_name" content="dicoding">
+    <meta property="og:ttl" content="3600">
+
+    <title>    AI Impact Challenge - Datathon - 
+Dicoding Indonesia</title>
+
+    
+            <link rel="preconnect" href="https://fonts.gstatic.com/">
+
+    <link rel="stylesheet" href="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/commons_style-feedae0d9c.css"><style class="darkreader darkreader--sync" media="screen"></style>
+    <link rel="stylesheet" href="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/addons_style-484a068512.css" as="style" onload="this.rel='stylesheet'"><style class="darkreader darkreader--sync" media="screen"></style>
+<noscript><link rel="stylesheet" href='https://d17ivq9b7rppb3.cloudfront.net/build/addons_style-484a068512.css'></noscript>
+    <link rel="stylesheet" href="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/v3common_style-247530c40d.css" as="style" onload="this.rel='stylesheet'"><style class="darkreader darkreader--sync" media="screen"></style>
+<noscript><link rel="stylesheet" href='https://d17ivq9b7rppb3.cloudfront.net/build/v3common_style-247530c40d.css'></noscript>
+    <link rel="stylesheet" href="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/semicolon_style-dadb930586.css" as="style" onload="this.rel='stylesheet'"><style class="darkreader darkreader--sync" media="screen"></style>
+<noscript><link rel="stylesheet" href='https://d17ivq9b7rppb3.cloudfront.net/build/semicolon_style-dadb930586.css'></noscript>
+    <link rel="stylesheet" href="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/css.css" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap'></noscript>
+        <link rel="stylesheet" href="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/css2.css" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href='https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap'></noscript>
+    <link rel="stylesheet" href="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/all.min.css" as="style" onload="this.rel='stylesheet'"><style class="darkreader darkreader--sync" media="screen"></style>
+<noscript><link rel="stylesheet" href='https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.6.3/css/all.min.css'></noscript>
+
+    <link rel="stylesheet" href="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/newchallenge_style-69ba74c3a2.css" as="style" onload="this.rel='stylesheet'"><style class="darkreader darkreader--sync" media="screen"></style>
+<noscript><link rel="stylesheet" href='https://d17ivq9b7rppb3.cloudfront.net/build/newchallenge_style-69ba74c3a2.css'></noscript>
+    <link rel="stylesheet" href="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/froala_style.min.css" as="style" onload="this.rel='stylesheet'"><style class="darkreader darkreader--sync" media="screen"></style>
+<noscript><link rel="stylesheet" href='/ui/froala290/css/froala_style.min.css'></noscript>    <noscript><style>.lazy {display: none;}</style></noscript>
+
+<style>
+    img.lazy[src^="data:image"]:not([src$=".svg"]) {
+      opacity: .5;
+      filter: blur(20px);
+    }
+    .position-relative {
+        position: relative;
+    }
+    .grecaptcha-badge {
+        visibility: hidden;
+    }
+</style><style class="darkreader darkreader--sync" media="screen"></style>
+    <script type="text/javascript" async="" charset="utf-8" src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/recaptcha__en.js" crossorigin="anonymous" integrity="sha384-H/5bR8BVxoDZIIp1lThXvsuAj/gHvImPQ0kayVpCevmOrRalo0FwJubK3EoX8w37"></script><script src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/sdk.js" defer="defer" async=""></script><script type="text/javascript" crossorigin="anonymous" async="" src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/array.js"></script><script async="" src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/gtm.js"></script><script async="" src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/fbevents.js"></script><script>
+    /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+</script>    <!-- Google tag (gtag.js) -->
+    <script async="" src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+                    gtag('set', 'user_id', '4337748');
+        
+                            gtag('set', 'page_location', 'https://www.dicoding.com/challenges/968');
+        
+                gtag('config', 'G-FQ0QLD0CBG');
+
+                
+                    </script>
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq){return}n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq){f._fbq=n}n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window,document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init','269427823946327');
+        fbq('track','PageView');
+    </script>
+
+        
+    <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=269427823946327&ev=PageView&noscript=1"/>
+    </noscript>
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:2209120,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+                            window.hj('identify', 4337748, {
+                user_registered_at: '2024-09-20 16:50:50'
+            });
+            </script><script async="" src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/hotjar-2209120.js"></script>
+    <script async="" src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/api.js"></script>
+        <script>window.recaptchaSiteKey = "6LcY-dEZAAAAAG7220cTok79TRAMHymu3zvCF0hV";</script>
+    <script src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/bundle.min.js" integrity="sha384-JwA+G8hnJRexbUGtQc052PYMWbSrKeVdoOxrRZhvXCg/m66x/kxQ8M1Xgyqr3Ys9" crossorigin="anonymous" data-dont-defer=""></script><meta name="darkreader" content="811a5347318942eebacb7e369fd686b1"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: var(--darkreader-background-ffd76e, #684b00) !important;
+    border-color: var(--darkreader-background-c59d00, #9e7e00) !important;
+    color: var(--darkreader-text-302505, #d7d4cf) !important;
+}
+#vimvixen-console-frame {
+    color-scheme: light !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: var(--darkreader-background-add8e6, #1b4958) !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: var(--darkreader-background-cfecf5, #0f3a47) !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: var(--darkreader-background-f5f5f5, #1e2021) !important;
+}
+.tou-uknfeu {
+    background-color: var(--darkreader-background-faedda, #432c09) !important;
+}
+.tou-6i3zyv {
+    background-color: var(--darkreader-background-85c3d8, #245d70) !important;
+}
+div.mermaid-viewer-control-panel .btn {
+    background-color: var(--darkreader-neutral-background);
+    fill: var(--darkreader-neutral-text);
+}
+svg g rect.er {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.entityBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxOdd {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxEven {
+    fill: var(--darkreader-selection-background);
+    fill-opacity: 0.8 !important;
+}
+svg rect.er.relationshipLabelBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g g.nodes rect,
+svg g g.nodes polygon {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.task {
+    fill: var(--darkreader-selection-background) !important;
+}
+svg line.messageLine0,
+svg line.messageLine1 {
+    stroke: var(--darkreader-neutral-text) !important;
+}
+div.mermaid .actor {
+    fill: var(--darkreader-neutral-background) !important;
+}
+mitid-authenticators-code-app > .code-app-container {
+    background-color: white !important;
+    padding-top: 1rem;
+}
+iframe#unpaywall[src$="unpaywall.html"] {
+    color-scheme: light !important;
+}
+select {
+    --darkreader-bg--form-control-background-color: rgba(22, 22, 22, 0) !important;
+}
+body#tumblr {
+    --darkreader-bg--secondary-accent: 31, 32, 34 !important;
+    --darkreader-bg--white: 23, 23, 23 !important;
+    --darkreader-text--black: 228, 224, 218 !important;
+}
+:host {
+    --d2l-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-button-icon-background-color-hover: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-color-ferrite: var(--darkreader-neutral-text) !important;
+    --d2l-color-sylvite: var(--darkreader-bg--d2l-color-sylvite) !important;
+    --d2l-dropdown-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-dropdown-border-color: var(--darkreader-border--d2l-color-mica) !important;
+    --d2l-input-backgroud-color: var(--darkreader-neutral-background) !important;
+    --d2l-menu-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-tooltip-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-tooltip-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+:host([_floating]) .d2l-floating-buttons-container {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-top-color: var(--darkreader-border--d2l-color-mica) !important;
+    opacity: 0.88 !important;
+}
+d2l-card {
+    background: var(--darkreader-neutral-background) !important;
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+d2l-dropdown-content > div,
+d2l-menu-item {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-radius: 10px !important;
+}
+d2l-empty-state-simple {
+    border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-button-filter > ul > li > a.vui-button {
+    border-color: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-label-text:has(.d2l-button-subtle-content):hover,
+.d2l-label-text:has(.d2l-button-subtle-content):focus,
+.d2l-label-text:has(.d2l-button-subtle-content):active {
+    background-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-navigation-centerer {
+    color: inherit !important;
+}
+.d2l-tabs-layout {
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+.d2l-input,
+.d2l-calendar-date,
+.d2l-htmleditor-container {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-collapsible-panel {
+    border: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+    border-radius: 0.4rem !important;
+}
+.d2l-collapsible-panel-divider {
+    border-bottom: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-w2d-flex {
+    border-bottom: 2px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-collapsible-panel scrolled,
+.d2l-collapsible-panel-header,
+.d2l-w2d-collection-fixed {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-loading-spinner-bg {
+    fill: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-loading-spinner-bg-stroke {
+    stroke: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-loading-spinner-wrapper svg path,
+.d2l-loading-spinner-wrapper svg circle {
+    fill: var(--darkreader-neutral-background) !important;
+}
+.d2l-twopanelselector-side.d2l-twopanelselector-side-sep {
+    background: var(--darkreader-bg--d2l-color-mica) !important;
+}
+.d2l-le-TreeAccordionItem-anchor::before {
+    background: var(--darkreader-bg--d2l-color-corundum) !important;
+}
+table[class|="moz-header"] {
+    background: none;
+}
+*[style*="color: rgba(0,0,0,"],
+*[style*="color: rgba(0, 0, 0,"],
+*[style*="color:#000"],
+*[style*="color:black"],
+*[style*="color:#282828"],
+*[style*="color:#444"] {
+    color: var(--darkreader-neutral-text) !important;
+}
+*[style*="background:#fff"],
+*[style*="background-color:#fff"] {
+    background: var(--darkreader-neutral-background) !important;
+}
+*[bgcolor="#F5F5F5"],
+*[style*="background-color: #F5F5F5"] {
+    background: var(--darkreader-background-f5f5f5, #1e2021) !important;
+}
+body[style*="background: rgb(255, 255, 255) !important"] *:not(a),
+.body[style*="background-color: rgb(254, 254, 254) !important"] *:not(a) {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+div[style*="www.gstatic.com/android/"] {
+    background: none !important;
+}
+*[style*="background:#f9f9f9"] {
+    background: var(--darkreader-background-f9f9f9, #1b1e1f) !important;
+}
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }</style>
+    <script>
+        Sentry.init({
+            dsn: "https://a06af40de05344e0a93804db624e9322@sentry.dicoding.net/4",
+            environment: "production",
+            release: "04433ad0855ad1068c072def81fd10f6a174a5c5",
+            allowUrls: [
+                /https?:\/\/(www\.)?dicoding\.(com|test|local)/,
+                "https://d17ivq9b7rppb3.cloudfront.net",
+                "https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com",
+                "https://cdn.jsdelivr.net",
+                "https://unpkg.com",
+                "https://cdn.skypack.dev",
+                "https://esm.run",
+                "https://cdn.jwplayer.com"
+            ],
+            beforeSend(event, hint) {
+                return hint.originalException === "Timeout" ? null : event;
+            }
+        });
+
+        
+                    Sentry.setUser({ id: 4337748, username: "mikaillachmad", email: "mikailkuliah@gmail.com"});
+            </script>
+    <script type="text/javascript">
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-NGLPCZH');
+    </script>
+    <script>
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init Te Ds js Re Os As capture Ke calculateEventProperties zs register register_once register_for_session unregister unregister_for_session Hs getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSurveysLoaded onSessionId getSurveys getActiveMatchingSurveys renderSurvey displaySurvey canRenderSurvey canRenderSurveyAsync identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty qs Ns createPersonProfile Bs Cs Ws opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing get_explicit_consent_status is_capturing clear_opt_in_out_capturing Ls debug L Us getPageViewId captureTraceFeedback captureTraceMetric".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init('phc_8SuBj0jOCwEenMBu6rpT8jQv9FNcDw9y7HrEsJt4L6a', {
+      api_host: 'https://us.i.posthog.com',
+      autocapture: false,
+      capture_pageview: false,
+      capture_pageleave: false,
+      loaded: function() {
+        trackPageView();
+        manageRecording();
+
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', trackButtonClicks);
+        } else {
+          trackButtonClicks();
+        }
+      }
+    })
+
+    const trackPageView = () => {
+      const keyPages = [
+        '/registration',
+        // exclude for now '/subscriptions/purchases',
+        '/codingcamp/registration',
+        '/pijak',
+        '/pijak/registration',
+        '/tempa',
+        '/tempa/registration',
+        '/tempa/re-register'
+      ];
+
+      const currentPath = window.location.pathname;
+
+      const matchesKeyPage = (path) => keyPages.includes(path);
+
+      if (matchesKeyPage(currentPath)) {
+        posthog.capture('pageview', {
+          page: currentPath,
+          url: window.location.href
+        });
+      }
+    };
+
+    const trackButtonClicks = () => {
+      // CTA buttons
+      document.querySelectorAll('[data-track]').forEach(el => {
+        el.addEventListener('click', (e) => {
+          const action = e.currentTarget.dataset.track;
+          const properties = { ...e.currentTarget.dataset };
+          delete properties.track; // Remove the action name from properties
+          properties.page = window.location.pathname;
+          properties.btn_text = e.currentTarget.innerText || e.currentTarget.textContent;
+
+          posthog.capture(`${action}_clicked`, properties);
+        });
+      });
+    };
+
+    const manageRecording = () => {
+      const recordPages = [
+        '/',
+        '/registration',
+        '/subscriptions/purchases',
+        '/codingcamp/registration',
+        '/pijak',
+        '/pijak/registration',
+        '/tempa',
+        '/tempa/registration',
+        '/tempa/re-register',
+        // exclude for now '/academies/{id}/tutorial/{id}'
+      ];
+      const currentPath = window.location.pathname;
+
+      const matchesRecordPage = (path) => recordPages.includes(path);
+
+      if (matchesRecordPage(currentPath)) {
+        posthog.startSessionRecording();
+      } else {
+        posthog.stopSessionRecording();
+      }
+    }
+  </script>
+
+    
+        </head>
+<body class="spy ">
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGLPCZH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    
+    
+    
+            <nav class="navbar navbar-v3-2 bg-white default-layout-navbar navbar-expand-lg navbar-light d-flex flex-row fixed-top-sm bottom-shadow fixed-top" id="main-nav" style="background: white; --darkreader-inline-bgcolor: var(--darkreader-background-ffffff, #181a1b); --darkreader-inline-bgimage: none;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage="">
+    <div class="container-xl">
+        <a class="navbar-brand" href="https://www.dicoding.com/">
+            <img src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/new-ui-logo.png" alt="Dicoding Indonesia" width="32" height="32">
+        </a>
+
+        <div class="navbar-collapse offcanvas-collapse" id="navbarSupportedContent">
+            <div class="navbar-menu-wrapper d-flex align-items-stretch w-100">
+                <div class="d-none d-lg-flex">
+    <form action="https://www.dicoding.com/academies/list" class="search-course-form" data-show-result="true" hx-get="https://www.dicoding.com/academies/list" hx-push-url="true" hx-target="#course-list" hx-select="#course-list" hx-swap="outerHTML">
+    <input type="hidden" name="sc" value="course">
+
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" class="search-course-form__icon" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.00016 1.3335C3.87055 1.3335 1.3335 3.87055 1.3335 7.00016C1.3335 10.1298 3.87055 12.6668 7.00016 12.6668C10.1298 12.6668 12.6668 10.1298 12.6668 7.00016C12.6668 3.87055 10.1298 1.3335 7.00016 1.3335ZM2.66683 7.00016C2.66683 4.60693 4.60693 2.66683 7.00016 2.66683C9.3934 2.66683 11.3335 4.60693 11.3335 7.00016C11.3335 9.3934 9.3934 11.3335 7.00016 11.3335C4.60693 11.3335 2.66683 9.3934 2.66683 7.00016Z" fill="#A1A1AA" style="--darkreader-inline-fill: var(--darkreader-text-a1a1aa, #afa99e);" data-darkreader-inline-fill=""></path>
+    <path d="M10.1953 11.1381L13.5286 14.4715L14.4715 13.5286L11.1381 10.1953L10.1953 11.1381Z" fill="#A1A1AA" style="--darkreader-inline-fill: var(--darkreader-text-a1a1aa, #afa99e);" data-darkreader-inline-fill=""></path>
+</svg>
+
+    <input type="search" class="form-control search-course-form__input" name="q" autocomplete="off" placeholder="Apa yang ingin Anda pelajari?" aria-label="Apa yang ingin Anda pelajari?">
+
+    <div class="search-course-form__result-container" style="display: none;">
+        <div class="search-course-form__result-list"></div>
+        <a href="https://www.dicoding.com/academies/list" class="search-course-form__result-footer remove-style-link font-weight-medium d-flex align-items-center">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5144 2.12584C11.8164 1.95805 12.1836 1.95805 12.4856 2.12584L21.4856 7.12584C21.8031 7.30221 22 7.63683 22 8C22 8.36317 21.8031 8.69779 21.4856 8.87416L20 9.69951V16C20 16.4465 19.704 16.8389 19.2747 16.9615L17 17.6114V21C17 21.5523 16.5523 22 16 22C15.4477 22 15 21.5523 15 21V18.1829L12.2747 18.9615C12.0952 19.0128 11.9048 19.0128 11.7253 18.9615L4.72528 16.9615C4.29598 16.8389 4 16.4465 4 16V9.69951L2.51436 8.87416C2.19689 8.69779 2 8.36317 2 8C2 7.63683 2.19689 7.30221 2.51436 7.12584L11.5144 2.12584ZM17 15.5314L18 15.2457V10.8106L17 11.3662V15.5314ZM15 12.4773V16.1028L12 16.96L6 15.2457V10.8106L11.5144 13.8742C11.8164 14.0419 12.1836 14.0419 12.4856 13.8742L15 12.4773ZM16.0309 9.61666L13.7071 7.29289C13.3166 6.90237 12.6834 6.90237 12.2929 7.29289C11.9024 7.68342 11.9024 8.31658 12.2929 8.70711L14.2126 10.6268L12 11.856L5.05913 8L12 4.14396L18.9409 8L16.0309 9.61666Z" fill="#08768F" style="--darkreader-inline-fill: var(--darkreader-text-08768f, #6bddf7);" data-darkreader-inline-fill=""></path>
+            </svg>
+            <span class="ml-2 mr-auto">Lihat semua kelas</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="">
+    <path d="M10.1036 8.10355C10.2988 7.90829 10.2988 7.59171 10.1036 7.39645L6.60355 3.89645C6.40829 3.70118 6.09171 3.70118 5.89645 3.89645C5.70118 4.09171 5.70118 4.40829 5.89645 4.60355L9.04289 7.75L5.89645 10.8964C5.70118 11.0917 5.70118 11.4083 5.89645 11.6036C6.09171 11.7988 6.40829 11.7988 6.60355 11.6036L10.1036 8.10355Z" fill="#A1A1AA" style="--darkreader-inline-fill: var(--darkreader-text-a1a1aa, #afa99e);" data-darkreader-inline-fill=""></path>
+</svg>
+        </a>
+    </div>
+</form>
+
+    <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.dicoding.com/learningpaths">Learning Path</a>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#langganan" role="button" aria-haspopup="true" aria-expanded="false">Langganan</a>
+            <div id="langganan" class="dropdown-menu">
+                <a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/subscriptions/purchases">
+    <div class="icon">
+        <svg width="16" height="16" class="" viewBox="0 0 16 16" fill="#3F3F46" xmlns="http://www.w3.org/2000/svg" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill="">
+    <path d="M10.3335 6.6665C10.5896 6.6665 10.8232 6.57022 11.0002 6.41187C11.1771 6.57022 11.4107 6.6665 11.6668 6.6665C12.2191 6.6665 12.6668 6.21879 12.6668 5.6665C12.6668 5.11422 12.2191 4.6665 11.6668 4.6665C11.4107 4.6665 11.1771 4.76279 11.0002 4.92114C10.8232 4.76279 10.5896 4.6665 10.3335 4.6665C9.78121 4.6665 9.3335 5.11422 9.3335 5.6665C9.3335 6.21879 9.78121 6.6665 10.3335 6.6665Z" fill="currentColor"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.00016 2.6665C1.63197 2.6665 1.3335 2.96498 1.3335 3.33317V11.9998C1.3335 12.368 1.63197 12.6665 2.00016 12.6665H14.0002C14.3684 12.6665 14.6668 12.368 14.6668 11.9998V3.33317C14.6668 2.96498 14.3684 2.6665 14.0002 2.6665H2.00016ZM2.66683 7.99984V3.99984H13.3335V7.99984H2.66683ZM2.66683 9.33317V11.3332H13.3335V9.33317H2.66683Z" fill="currentColor"></path>
+</svg>
+    </div>
+    <div class="ml-3">
+        <p class="font-weight-600 mb-1">Biaya Langganan</p>
+        <span class="text-menu">Bebas pilih kelas dengan berlangganan.</span>
+    </div>
+</a>
+<a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/tokens/activation">
+    <div class="icon">
+        <svg width="16" height="16" class="" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 3C3.44772 3 3 3.44772 3 4V11C3 11.5523 3.44772 12 4 12C4.55228 12 5 11.5523 5 11V9H20V16.7143H18C17.4477 16.7143 17 17.162 17 17.7143C17 18.2666 17.4477 18.7143 18 18.7143H21C21.5523 18.7143 22 18.2666 22 17.7143V4C22 3.44772 21.5523 3 21 3H4ZM20 7V5H5V7H20Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M7 16H5V18H7V16Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M8 16H10V18H8V16Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M13 16H11V18H13V16Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 13C2.44772 13 2 13.4477 2 14V20C2 20.5523 2.44772 21 3 21H15C15.5523 21 16 20.5523 16 20V14C16 13.4477 15.5523 13 15 13H3ZM4 15V19H14V15H4Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>
+    </div>
+    <div class="ml-3">
+        <p class="font-weight-600 mb-1">Aktivasi Token</p>
+        <span class="text-menu">Aktifkan token belajar Academy.</span>
+    </div>
+</a>
+            </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#programs" role="button" aria-haspopup="true" aria-expanded="false">Program</a>
+            <div id="programs" class="dropdown-menu">
+                <a class="dropdown-item" href="https://aws.dicoding.com/">AWS AI Academy 2026</a>
+        <a class="dropdown-item" href="https://dicoding.elevaite.id/" target="_blank" rel="noreferrer noopener">Microsoft Elevate Training Center</a>
+        <a class="dropdown-item" href="https://bootcamp.dicoding.com/">Dicoding Bootcamp</a>
+        <a class="dropdown-item" href="https://go.dbs.com/dbsfcodingcamp" target="_blank" rel="noreferrer noopener">Coding Camp 2026 2.0 powered by DBS Foundation</a>
+        <a class="dropdown-item" href="https://www.dicoding.com/pijak">Pijak in collaboration with IBM SkillsBuild - Flash Class</a>
+            </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.dicoding.com/impact">Capaian &amp; Dampak</a>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mr-3" data-toggle="dropdown" href="#others" role="button" aria-haspopup="true" aria-expanded="false">Lainnya</a>
+            <div id="others" class="dropdown-menu">
+                <a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/challenges">
+    <div class="icon">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.4345 1.64683C6.55633 1.45191 6.76998 1.3335 6.99984 1.3335H8.99984C9.2297 1.3335 9.44334 1.45191 9.56517 1.64683L11.2318 4.3135C11.2981 4.41945 11.3332 4.54188 11.3332 4.66683V7.64337L13.0363 8.7788C13.2218 8.90244 13.3332 9.11059 13.3332 9.3335V12.0002C13.3332 12.3684 13.0347 12.6668 12.6665 12.6668H3.33317C2.96498 12.6668 2.6665 12.3684 2.6665 12.0002V9.3335C2.6665 9.11059 2.7779 8.90244 2.96337 8.7788L4.6665 7.64337V4.66683C4.6665 4.54188 4.70162 4.41945 4.76784 4.3135L6.4345 1.64683ZM5.99984 11.3335H7.33317V10.0002H8.6665V11.3335H9.99984V4.85803L8.63034 2.66683H7.36934L5.99984 4.85803V11.3335ZM4.6665 9.24584L3.99984 9.69029V11.3335H4.6665V9.24584ZM11.3332 11.3335V9.24584L11.9998 9.69029V11.3335H11.3332Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M5.33317 14.6668H10.6665V13.3335H5.33317V14.6668Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>    </div>
+    <div class="ml-3">
+        <p class="font-weight-600 mb-1">Dicoding Challenge</p>
+        <span class="text-menu">Asah skill Anda dengan mengikuti challenge.</span>
+    </div>
+</a>
+<a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/jobs/old">
+    <div class="icon">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.66683 2.737C4.66683 1.96187 5.26378 1.3335 6.00016 1.3335H10.0002C10.7365 1.3335 11.3335 1.96187 11.3335 2.737V4.14051H13.3335C14.0699 4.14051 14.6668 4.76889 14.6668 5.54402V13.2633C14.6668 14.0385 14.0699 14.6668 13.3335 14.6668H2.66683C1.93045 14.6668 1.3335 14.0385 1.3335 13.2633V5.54402C1.3335 4.76889 1.93045 4.14051 2.66683 4.14051H4.66683V2.737ZM10.0002 2.737V4.14051H6.00016V2.737H10.0002ZM13.3335 5.54402H2.66683V6.94753H13.3335V5.54402ZM13.3335 8.35104H2.66683V13.2633H13.3335V8.35104Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>    </div>
+    <div class="ml-3">
+        <p class="font-weight-600 mb-1">Dicoding Job</p>
+        <span class="text-menu">Temukan pekerjaan sesuai skill Anda.</span>
+    </div>
+</a>
+<a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/events">
+    <div class="icon">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3335 2.66667C11.3335 2.29848 11.035 2 10.6668 2C10.2986 2 10.0002 2.29848 10.0002 2.66667V3.33333H6.00016V2.66667C6.00016 2.29848 5.70169 2 5.3335 2C4.96531 2 4.66683 2.29848 4.66683 2.66667V3.33333H2.00016C1.63197 3.33333 1.3335 3.63181 1.3335 4V13.3333C1.3335 13.7015 1.63197 14 2.00016 14H14.0002C14.3684 14 14.6668 13.7015 14.6668 13.3333V4C14.6668 3.63181 14.3684 3.33333 14.0002 3.33333H11.3335V2.66667ZM13.3335 6V4.66667H2.66683V6L13.3335 6ZM2.66683 7.33333L13.3335 7.33333V12.6667H2.66683V7.33333Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>
+    </div>
+    <div class="ml-3">
+        <p class="font-weight-600 mb-1">Dicoding Event</p>
+        <span class="text-menu">Ikuti event dan bangun jaringan developer.</span>
+    </div>
+</a>
+<a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/mentoring">
+    <div class="icon">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22H2L4.92893 19.0711C3.11929 17.2614 2 14.7614 2 12ZM6.82843 20H12C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 14.1524 4.85124 16.1649 6.34315 17.6569L7.75736 19.0711L6.82843 20ZM11 6H13V18H11V6ZM7 9H9V15H7V9ZM15 9H17V15H15V9Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>
+    </div>
+    <div class="ml-3">
+        <p class="font-weight-600 mb-1">Dicoding Mentoring</p>
+        <span class="text-menu">Tingkatkan skill dengan mentoring bersama expert.</span>
+    </div>
+</a>
+    <a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/rewards">
+        <div class="icon">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.3335 5.3335V6.66683H2.66683V13.3335C2.66683 13.7017 2.96531 14.0002 3.3335 14.0002H12.6668C13.035 14.0002 13.3335 13.7017 13.3335 13.3335V6.66683H14.6668V5.3335H1.3335ZM12.0002 6.66683H4.00016V12.6668H12.0002V6.66683Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M12 9.33333V8H4V9.33333H12Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.00016 1.3335C6.79662 1.3335 7.51153 1.68267 8.00016 2.23628C8.48879 1.68267 9.2037 1.3335 10.0002 1.3335C11.4729 1.3335 12.6668 2.5274 12.6668 4.00016C12.6668 5.47292 11.4729 6.66683 10.0002 6.66683H6.00016C4.5274 6.66683 3.3335 5.47292 3.3335 4.00016C3.3335 2.5274 4.5274 1.3335 6.00016 1.3335ZM7.3335 5.3335V4.00016C7.3335 3.26378 6.73654 2.66683 6.00016 2.66683C5.26378 2.66683 4.66683 3.26378 4.66683 4.00016C4.66683 4.73654 5.26378 5.3335 6.00016 5.3335H7.3335ZM8.66683 5.3335H10.0002C10.7365 5.3335 11.3335 4.73654 11.3335 4.00016C11.3335 3.26378 10.7365 2.66683 10.0002 2.66683C9.26378 2.66683 8.66683 3.26378 8.66683 4.00016V5.3335Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>        </div>
+        <div class="ml-3">
+            <p class="font-weight-600 mb-1">Reward</p>
+            <span class="text-menu">Tukarkan point dengan reward menarik.</span>
+        </div>
+    </a>
+            </div>
+        </li>
+    </ul>
+</div>
+                <ul class="navbar-nav navbar-nav-right">
+                        <li class="nav-item d-none d-lg-block">
+                <a href="https://www.dicoding.com/dashboard" class="nav-link">Dashboard</a>
+            </li>
+        
+                    <li class="nav-item nav-streak dropdown">
+        <a class="nav-link" id="streakDropdown" data-toggle="dropdown" data-display="static" href="#" aria-expanded="false">
+            <div class="d-flex align-items-center streak-indicator checked">
+                <div class="streak-icon-circle checked">
+                    <svg width="12" viewBox="0 0 14 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 12.25L8.75 0V8.75H14L5.25 21V12.25H0Z" fill="#F59E0B" style="--darkreader-inline-fill: var(--darkreader-text-f59e0b, #f6a823);" data-darkreader-inline-fill=""></path>
+</svg>
+
+                </div>
+
+                <span class="streak-count ml-1">1</span>
+            </div>
+        </a>
+        <div class="dropdown-menu navbar-dropdown streak-dropdown-menu" aria-labelledby="streakDropdown">
+            <div class="streak-dropdown-days">
+                                                            <div class="streak-day-item">
+                        <div class="streak-day-circle">
+                            <svg width="12" viewBox="0 0 14 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 12.25L8.75 0V8.75H14L5.25 21V12.25H0Z" fill="#D4D4D8" style="--darkreader-inline-fill: var(--darkreader-text-d4d4d8, #cecac3);" data-darkreader-inline-fill=""></path>
+</svg>
+
+                        </div>
+                        <small class="streak-day-label">Jum</small>
+                    </div>
+                                                            <div class="streak-day-item">
+                        <div class="streak-day-circle">
+                            <svg width="12" viewBox="0 0 14 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 12.25L8.75 0V8.75H14L5.25 21V12.25H0Z" fill="#D4D4D8" style="--darkreader-inline-fill: var(--darkreader-text-d4d4d8, #cecac3);" data-darkreader-inline-fill=""></path>
+</svg>
+
+                        </div>
+                        <small class="streak-day-label">Sab</small>
+                    </div>
+                                                            <div class="streak-day-item">
+                        <div class="streak-day-circle">
+                            <svg width="12" viewBox="0 0 14 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 12.25L8.75 0V8.75H14L5.25 21V12.25H0Z" fill="#D4D4D8" style="--darkreader-inline-fill: var(--darkreader-text-d4d4d8, #cecac3);" data-darkreader-inline-fill=""></path>
+</svg>
+
+                        </div>
+                        <small class="streak-day-label">Min</small>
+                    </div>
+                                                            <div class="streak-day-item">
+                        <div class="streak-day-circle">
+                            <svg width="12" viewBox="0 0 14 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 12.25L8.75 0V8.75H14L5.25 21V12.25H0Z" fill="#D4D4D8" style="--darkreader-inline-fill: var(--darkreader-text-d4d4d8, #cecac3);" data-darkreader-inline-fill=""></path>
+</svg>
+
+                        </div>
+                        <small class="streak-day-label">Sen</small>
+                    </div>
+                                                            <div class="streak-day-item">
+                        <div class="streak-day-circle active">
+                            <svg width="12" viewBox="0 0 14 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 12.25L8.75 0V8.75H14L5.25 21V12.25H0Z" fill="#FFFFFF" style="--darkreader-inline-fill: var(--darkreader-text-ffffff, #e8e6e3);" data-darkreader-inline-fill=""></path>
+</svg>
+
+                        </div>
+                        <small class="streak-day-label">Sel</small>
+                    </div>
+                            </div>
+
+            <div class="streak-dropdown-footer">
+                <div class="streak-footer-row">
+                    <div class="d-flex align-items-center">
+                        <svg width="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M4.40019 8.40002C6.32019 6.48002 7.60019 3.86669 8.00019 2.80002L9.6002 3.60002L10.8002 5.60002V7.60002L9.2002 10V10.8L10.0002 11.2L12.0002 10.8C11.2002 14.4 10.4002 13.6 8.4002 14.4C6.8002 15.04 5.33352 13.6 4.80019 12.8C3.86686 12.1334 2.48019 10.32 4.40019 8.40002Z" fill="#FFF240" style="--darkreader-inline-fill: var(--darkreader-text-fff240, #fff246);" data-darkreader-inline-fill=""></path>
+    <path d="M8 15.3333C10.7614 15.3333 13 13.0947 13 10.3333C13 9.75633 12.8465 9.20213 12.6667 8.6864C11.5555 9.78433 10.7111 10.3333 10.1333 10.3333C12.7969 5.66667 11.3333 3.66667 7.33333 1C7.66667 4.33301 5.46935 5.84917 4.57453 6.69107C3.60524 7.603 3 8.89747 3 10.3333C3 13.0947 5.23857 15.3333 8 15.3333ZM8.47293 3.48999C10.6341 5.32352 10.6444 6.7482 8.97533 9.6724C8.468 10.5613 9.10987 11.6667 10.1333 11.6667C10.5923 11.6667 11.0561 11.5328 11.5459 11.2701C11.1319 12.8413 9.70127 14 8 14C5.97495 14 4.33333 12.3584 4.33333 10.3333C4.33333 9.3072 4.75519 8.35173 5.48817 7.66213C5.57217 7.58313 5.99833 7.2054 6.01651 7.18907C6.29908 6.93473 6.53187 6.71087 6.76193 6.46451C7.5822 5.58621 8.1714 4.61087 8.47293 3.48999Z" fill="#FE9C34" style="--darkreader-inline-fill: var(--darkreader-text-fe9c34, #fea13e);" data-darkreader-inline-fill=""></path>
+</svg>
+
+                        <span class="font-weight-400 ml-1 text-gray-500">Streak Terlama</span>
+                        <span class="font-weight-600 ml-2">4</span>
+                    </div>
+
+                    <a href="https://www.dicoding.com/academies/daily-check-in" class="streak-more-link font-weight-400 ml-auto">
+                        Selengkapnya
+                    </a>
+                </div>
+            </div>
+        </div>
+    </li>
+
+        
+        
+        <li class="nav-item nav-profile dropdown show">
+    <a class="nav-link dropdown-toggle" id="profileDropdown" data-toggle="dropdown" href="#" aria-expanded="true">
+        <div class="nav-profile-img">
+            <img src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/dos-9a758461f8f471a7a3b62ada54e3378320260128103140.png" alt="Avatar" class="rounded-circle">
+        </div>
+    </a>
+    <div class="dropdown-menu navbar-dropdown show" aria-labelledby="profileDropdown">
+        <button type="button" class="btn close-profile-btn">
+    <svg class="" width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13 1L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""></path>
+    <path d="M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""></path>
+</svg>
+</button>
+
+<a class="dropdown-item remove-style-link d-flex align-items-center" href="#">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="16" height="16" class="icon mr-3">
+    <path d="M5.33333 10.6667L4 2H12L10.6667 10.6667L8 11.3333L5.33333 10.6667Z" fill="#FBBF24" style="--darkreader-inline-fill: var(--darkreader-text-fbbf24, #fbc434);" data-darkreader-inline-fill=""></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3.51079 1.5472C3.63697 1.4108 3.81435 1.33325 4.00016 1.33325H12.0002C12.186 1.33325 12.3634 1.4108 12.4895 1.5472C12.6157 1.68359 12.6792 1.86646 12.6648 2.05171L12.6169 2.66659H14.0002C14.3684 2.66659 14.6668 2.96506 14.6668 3.33325V6.66659C14.6668 6.88949 14.5554 7.09764 14.37 7.22129L12.37 8.55462C12.3011 8.60052 12.2268 8.63193 12.1507 8.64955L12.1292 8.92554C11.994 10.6608 10.5464 11.9999 8.80593 11.9999H8.66683V13.3333H12.0002V14.6666H4.00016V13.3333H7.3335V11.9999H7.19439C5.45388 11.9999 4.00635 10.6608 3.87113 8.92554L3.84963 8.64955C3.77351 8.63193 3.69922 8.60052 3.63036 8.55462L1.63036 7.22129C1.4449 7.09764 1.3335 6.88949 1.3335 6.66659V3.33325C1.3335 2.96506 1.63197 2.66659 2.00016 2.66659H3.38342L3.33551 2.05171C3.32108 1.86646 3.38461 1.68359 3.51079 1.5472ZM8.80593 10.6666C9.85024 10.6666 10.7188 9.86311 10.7999 8.82196L11.2795 2.66659H4.7208L5.20044 8.82196C5.28157 9.86311 6.15008 10.6666 7.19439 10.6666H8.80593ZM12.2782 7.01333L12.513 3.99992H13.3335V6.3098L12.2782 7.01333ZM3.48732 3.99992L3.72213 7.01333L2.66683 6.3098V3.99992H3.48732Z" fill="#F59E0B" style="--darkreader-inline-fill: var(--darkreader-text-f59e0b, #f6a823);" data-darkreader-inline-fill=""></path>
+</svg>
+    <span class="font-weight-bold">0 Points</span>
+</a>
+
+<a class="dropdown-item remove-style-link d-flex align-items-center" href="#">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="16" height="16" class="icon mr-3">
+    <ellipse cx="8" cy="10" rx="4" ry="4" fill="#DBEAFE" style="--darkreader-inline-fill: var(--darkreader-text-dbeafe, #b4dafd);" data-darkreader-inline-fill=""></ellipse>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.33333 1.33325H4V2.66659L4.96972 4.60602C5.69142 4.16325 6.48922 3.87369 7.33333 3.77311V1.33325ZM8.66667 3.77311C9.51078 3.87369 10.3086 4.16325 11.0303 4.60602L12 2.66659V1.33325H8.66667V3.77311Z" fill="#3B82F6" style="--darkreader-inline-fill: var(--darkreader-text-3b82f6, #459ff6);" data-darkreader-inline-fill=""></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3332 10.0001C13.3332 12.9456 10.9454 15.3334 7.99984 15.3334C5.05432 15.3334 2.6665 12.9456 2.6665 10.0001C2.6665 7.05456 5.05432 4.66675 7.99984 4.66675C10.9454 4.66675 13.3332 7.05456 13.3332 10.0001ZM7.33317 11.3334L6.6665 10.3334L5.99984 11.3334H5.33317L6.24637 9.99541L5.33317 8.66675H5.99984L6.6665 9.66675L7.33317 8.66675H7.99984L7.08664 10.0047L7.99984 11.3334H7.33317ZM10.6665 9.66675C10.6665 9.11446 10.2188 8.66675 9.6665 8.66675H8.33317V11.3334H8.99984V10.6667H9.6665C10.2188 10.6667 10.6665 10.219 10.6665 9.66675ZM9.6665 10.0001C9.8506 10.0001 9.99984 9.85084 9.99984 9.66675C9.99984 9.48265 9.8506 9.33341 9.6665 9.33341H8.99984V10.0001H9.6665Z" fill="#60A5FA" style="--darkreader-inline-fill: var(--darkreader-text-60a5fa, #5eb1fa);" data-darkreader-inline-fill=""></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.99984 4.66675C5.05432 4.66675 2.6665 7.05456 2.6665 10.0001C2.6665 12.9456 5.05432 15.3334 7.99984 15.3334C10.9454 15.3334 13.3332 12.9456 13.3332 10.0001C13.3332 7.05456 10.9454 4.66675 7.99984 4.66675ZM3.99984 10.0001C3.99984 7.79094 5.7907 6.00008 7.99984 6.00008C10.209 6.00008 11.9998 7.79094 11.9998 10.0001C11.9998 12.2092 10.209 14.0001 7.99984 14.0001C5.7907 14.0001 3.99984 12.2092 3.99984 10.0001Z" fill="#2563EB" style="--darkreader-inline-fill: var(--darkreader-text-2563eb, #388fed);" data-darkreader-inline-fill=""></path>
+</svg>
+    <span class="font-weight-bold">1.479 XP</span>
+</a>
+
+<div class="dropdown-divider"></div>
+
+<a class="dropdown-item remove-style-link d-flex d-lg-none align-items-center" href="https://www.dicoding.com/dashboard">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="16" height="16" class="icon mr-3">
+    <path fill="#3F3F46" d="M14 13.333a.666.666 0 01-.667.667H2.667A.666.666 0 012 13.333V6.327a.667.667 0 01.257-.527l5.334-4.148a.667.667 0 01.818 0L13.743 5.8a.666.666 0 01.257.527v7.006zm-1.333-.666V6.652L8 3.022l-4.667 3.63v6.015h9.334zm-8-2.667h6.666v1.333H4.667V10z" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>
+    <span class="font-weight-bold">Dashboard</span>
+</a>
+
+<a class="dropdown-item remove-style-link d-flex align-items-center" href="https://www.dicoding.com/users/mikaillachmad">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="16" height="16" class="icon mr-3">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 1.33325C6.52724 1.33325 5.33333 2.52716 5.33333 3.99992C5.33333 5.47268 6.52724 6.66659 8 6.66659C9.47276 6.66659 10.6667 5.47268 10.6667 3.99992C10.6667 2.52716 9.47276 1.33325 8 1.33325ZM6.66667 3.99992C6.66667 3.26354 7.26362 2.66659 8 2.66659C8.73638 2.66659 9.33333 3.26354 9.33333 3.99992C9.33333 4.7363 8.73638 5.33325 8 5.33325C7.26362 5.33325 6.66667 4.7363 6.66667 3.99992Z" fill="currentColor"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M8 7.33325C4.68629 7.33325 2 10.0195 2 13.3333V13.9999C2 14.3681 2.29848 14.6666 2.66667 14.6666H13.3333C13.7015 14.6666 14 14.3681 14 13.9999V13.3333C14 10.0195 11.3137 7.33325 8 7.33325ZM3.33333 13.3333C3.33333 10.7559 5.42267 8.66659 8 8.66659C10.5773 8.66659 12.6667 10.7559 12.6667 13.3333H3.33333Z" fill="currentColor"></path>
+</svg>
+    <span class="font-weight-bold">Profil Saya</span>
+</a>
+
+<a class="dropdown-item remove-style-link d-flex align-items-center" href="https://www.dicoding.com/orders/rewards/userorders">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="16" height="16" class="icon mr-3">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.3335 2.00016C1.3335 1.63197 1.63197 1.3335 2.00016 1.3335H2.66683C2.901 1.3335 3.11801 1.45636 3.23849 1.65717L5.04429 4.66683H14.0002C14.2055 4.66683 14.3993 4.76141 14.5256 4.92322C14.652 5.08503 14.6967 5.29603 14.6469 5.49519L13.3136 10.8285C13.2394 11.1253 12.9727 11.3335 12.6668 11.3335H4.66683C4.29864 11.3335 4.00016 11.035 4.00016 10.6668V5.51815L2.28937 2.66683H2.00016C1.63197 2.66683 1.3335 2.36835 1.3335 2.00016ZM5.3335 6.00016V10.0002H12.1463L13.1463 6.00016H5.3335Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M6.66683 13.3335C6.66683 14.0699 6.06988 14.6668 5.3335 14.6668C4.59712 14.6668 4.00016 14.0699 4.00016 13.3335C4.00016 12.5971 4.59712 12.0002 5.3335 12.0002C6.06988 12.0002 6.66683 12.5971 6.66683 13.3335Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M11.3335 14.6668C12.0699 14.6668 12.6668 14.0699 12.6668 13.3335C12.6668 12.5971 12.0699 12.0002 11.3335 12.0002C10.5971 12.0002 10.0002 12.5971 10.0002 13.3335C10.0002 14.0699 10.5971 14.6668 11.3335 14.6668Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>
+    <span class="font-weight-bold">Daftar Pesanan</span>
+</a>
+
+<a class="dropdown-item remove-style-link d-flex align-items-center" href="https://www.dicoding.com/settings/profile">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="16" height="16" class="icon mr-3">
+    <path d="M2.22671 11.3335C1.94489 10.8461 1.72582 10.3251 1.57471 9.78279C1.90358 9.61553 2.17977 9.36054 2.37273 9.04606C2.56568 8.73157 2.66788 8.36983 2.66802 8.00087C2.66816 7.6319 2.56623 7.27009 2.37351 6.95546C2.18079 6.64083 1.90479 6.38564 1.57604 6.21813C1.8774 5.12845 2.45119 4.13343 3.24337 3.32679C3.55277 3.52794 3.91179 3.63957 4.28069 3.64931C4.6496 3.65906 5.01401 3.56655 5.33359 3.38201C5.65318 3.19748 5.91548 2.92812 6.09146 2.60375C6.26744 2.27938 6.35024 1.91264 6.33071 1.54413C7.42545 1.26121 8.57419 1.26167 9.66871 1.54546C9.64934 1.91397 9.73231 2.28065 9.90843 2.60493C10.0845 2.92921 10.3469 3.19844 10.6666 3.38283C10.9862 3.56722 11.3507 3.65958 11.7196 3.64969C12.0884 3.6398 12.4474 3.52805 12.7567 3.32679C13.1427 3.72013 13.4854 4.16746 13.7734 4.66679C14.062 5.16613 14.278 5.68679 14.4254 6.21746C14.0965 6.38473 13.8203 6.63971 13.6274 6.9542C13.4344 7.26868 13.3322 7.63042 13.3321 7.99938C13.3319 8.36835 13.4339 8.73016 13.6266 9.04479C13.8193 9.35942 14.0953 9.61461 14.424 9.78213C14.1227 10.8718 13.5489 11.8668 12.7567 12.6735C12.4473 12.4723 12.0883 12.3607 11.7194 12.3509C11.3505 12.3412 10.9861 12.4337 10.6665 12.6182C10.3469 12.8028 10.0846 13.0721 9.90862 13.3965C9.73264 13.7209 9.64984 14.0876 9.66937 14.4561C8.57463 14.739 7.42589 14.7386 6.33137 14.4548C6.35074 14.0863 6.26777 13.7196 6.09165 13.3953C5.91554 13.071 5.65314 12.8018 5.33349 12.6174C5.01384 12.433 4.64941 12.3407 4.28052 12.3506C3.91164 12.3604 3.55268 12.4722 3.24337 12.6735C2.84937 12.2714 2.50777 11.8212 2.22671 11.3335ZM6.00004 11.4641C6.71046 11.8739 7.2446 12.5315 7.50004 13.3108C7.83271 13.3421 8.16671 13.3428 8.49937 13.3115C8.75497 12.532 9.28937 11.8744 10 11.4648C10.7102 11.0539 11.5471 10.9198 12.35 11.0881C12.5434 10.8161 12.71 10.5261 12.8487 10.2228C12.3017 9.61175 11.9995 8.82027 12 8.00013C12 7.16013 12.3134 6.37546 12.8487 5.77746C12.7091 5.47423 12.5417 5.18455 12.3487 4.91213C11.5462 5.08033 10.7099 4.94644 10 4.53613C9.28962 4.12637 8.75548 3.46878 8.50004 2.68946C8.16737 2.65813 7.83337 2.65746 7.50071 2.68879C7.24511 3.46822 6.71071 4.12583 6.00004 4.53546C5.2899 4.94634 4.45303 5.08047 3.65004 4.91213C3.45708 5.18432 3.29013 5.47403 3.15137 5.77746C3.69842 6.3885 4.00063 7.17999 4.00004 8.00013C4.00004 8.84013 3.68671 9.62479 3.15137 10.2228C3.29102 10.526 3.4584 10.8157 3.65137 11.0881C4.45385 10.9199 5.29018 11.0538 6.00004 11.4641ZM8.00004 10.0001C7.46961 10.0001 6.9609 9.78941 6.58583 9.41434C6.21075 9.03927 6.00004 8.53056 6.00004 8.00013C6.00004 7.46969 6.21075 6.96099 6.58583 6.58591C6.9609 6.21084 7.46961 6.00013 8.00004 6.00013C8.53047 6.00013 9.03918 6.21084 9.41425 6.58591C9.78933 6.96099 10 7.46969 10 8.00013C10 8.53056 9.78933 9.03927 9.41425 9.41434C9.03918 9.78941 8.53047 10.0001 8.00004 10.0001ZM8.00004 8.66679C8.17685 8.66679 8.34642 8.59655 8.47144 8.47153C8.59647 8.34651 8.66671 8.17694 8.66671 8.00013C8.66671 7.82332 8.59647 7.65375 8.47144 7.52872C8.34642 7.4037 8.17685 7.33346 8.00004 7.33346C7.82323 7.33346 7.65366 7.4037 7.52864 7.52872C7.40361 7.65375 7.33337 7.82332 7.33337 8.00013C7.33337 8.17694 7.40361 8.34651 7.52864 8.47153C7.65366 8.59655 7.82323 8.66679 8.00004 8.66679Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>
+    <span class="font-weight-bold">Pengaturan</span>
+</a>
+
+<a class="dropdown-item remove-style-link d-flex align-items-center" href="https://www.dicoding.com/logout">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16" width="16" height="16" class="icon mr-3">
+    <path d="M2.00016 1.33325C1.63197 1.33325 1.3335 1.63173 1.3335 1.99992V13.9999C1.3335 14.3681 1.63197 14.6666 2.00016 14.6666H8.00016C8.36835 14.6666 8.66683 14.3681 8.66683 13.9999V10.6666C8.66683 10.2984 8.36835 9.99992 8.00016 9.99992C7.63197 9.99992 7.3335 10.2984 7.3335 10.6666V13.3333H2.66683V2.66659H7.3335V5.33325C7.3335 5.70144 7.63197 5.99992 8.00016 5.99992C8.36835 5.99992 8.66683 5.70144 8.66683 5.33325V1.99992C8.66683 1.63173 8.36835 1.33325 8.00016 1.33325H2.00016Z" fill="#F43F5E" style="--darkreader-inline-fill: var(--darkreader-text-f43f5e, #f54866);" data-darkreader-inline-fill=""></path>
+    <path d="M11.8049 4.86185C11.5446 4.6015 11.1224 4.6015 10.8621 4.86185C10.6017 5.1222 10.6017 5.54431 10.8621 5.80466L12.3907 7.33325H5.3335C4.96531 7.33325 4.66683 7.63173 4.66683 7.99992C4.66683 8.36811 4.96531 8.66659 5.3335 8.66659H12.3907L10.8621 10.1952C10.6017 10.4555 10.6017 10.8776 10.8621 11.138C11.1224 11.3983 11.5446 11.3983 11.8049 11.138L14.4716 8.47132C14.7319 8.21098 14.7319 7.78886 14.4716 7.52852L11.8049 4.86185Z" fill="#F43F5E" style="--darkreader-inline-fill: var(--darkreader-text-f43f5e, #f54866);" data-darkreader-inline-fill=""></path>
+</svg>
+    <span class="font-weight-bold text-red-500">Keluar</span>
+</a>
+    </div>
+</li>
+
+        <li class="nav-item dropdown js-notification-dropdown " data-secondary-data="1" data-secondary-type="platformNotification">
+    <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C7.58172 2 4 5.58172 4 10V17H3V19H21V17H20V10C20 5.58172 16.4183 2 12 2ZM18 17V10C18 6.68629 15.3137 4 12 4C8.68629 4 6 6.68629 6 10V17H18Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M10 20V22H14V20H10Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>    </a>
+
+    <div class="platform-notification dropdown-menu dropdown-menu-right navbar-dropdown preview-list " aria-labelledby="notificationDropdown">
+    <div class="platform-notification__header">
+        <div class="platform-notification__header-title">
+            Notifikasi
+            <button type="button" class="btn js-close-notification platform-notification__close-btn d-lg-none">
+                <svg class="" width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13 1L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""></path>
+    <path d="M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""></path>
+</svg>
+            </button>
+        </div>
+
+            </div>
+
+        <div class="tab-content">
+        <div class="tab-pane " id="submission-notification" role="tabpanel" aria-labelledby="submission-notification-tab"></div>
+        <div class="tab-pane show active" id="discussion-notification" role="tabpanel" aria-labelledby="discussion-notification-tab"><div class="platform-notification__body">
+            <div class="empty-notification">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 346 244" class="empty-notification__illustration">
+    <g clip-path="url(#clip0)">
+        <path fill="#C3DFED" fill-rule="evenodd" d="M149.017 244a106.88 106.88 0 01-.017-1.881C149 196.766 178.325 160 214.5 160c18.063 0 34.419 9.167 46.268 23.993 7.902-4.925 16.809-7.694 26.232-7.694 30.901 0 56.253 29.782 58.791 67.701H149.017z" clip-rule="evenodd" style="--darkreader-inline-fill: var(--darkreader-text-c3dfed, #aed4e7);" data-darkreader-inline-fill=""></path>
+        <path fill="#95B4C9" fill-rule="evenodd" d="M39.018 244a82.36 82.36 0 01-.018-1.724C39 200.702 70.592 167 109.562 167c19.46 0 37.079 8.403 49.844 21.994 8.513-4.515 18.108-7.054 28.259-7.054 33.289 0 60.601 27.301 63.335 62.06H39.018z" clip-rule="evenodd" style="--darkreader-inline-fill: var(--darkreader-text-95b4c9, #93b3c8);" data-darkreader-inline-fill=""></path>
+        <path fill="#6B7280" d="M163 60h48v6h-48z" style="--darkreader-inline-fill: var(--darkreader-text-6b7280, #9e9589);" data-darkreader-inline-fill=""></path>
+        <path fill="#11C5C6" d="M200 78V66h11v11.5l-5.238-3L200 78z" style="--darkreader-inline-fill: var(--darkreader-text-11c5c6, #45eeef);" data-darkreader-inline-fill=""></path>
+        <circle cx="159" cy="63" r="6" fill="#9CA3AF" style="--darkreader-inline-fill: var(--darkreader-text-9ca3af, #afa99e);" data-darkreader-inline-fill=""></circle>
+        <path fill="#E0EFF6" fill-rule="evenodd" d="M15.02 244a108.51 108.51 0 01-.02-2.06C15 192.268 49.125 152 91.22 152c21.02 0 40.053 10.04 53.842 26.278 9.194-5.394 19.559-8.427 30.525-8.427 35.958 0 65.46 32.619 68.413 74.149H15.02z" clip-rule="evenodd" style="--darkreader-inline-fill: var(--darkreader-text-e0eff6, #c2dfed);" data-darkreader-inline-fill=""></path>
+        <path fill="#E5E7EB" d="M85 0h131c21.539 0 39 17.46 39 39v84H85V0z" style="--darkreader-inline-fill: var(--darkreader-text-e5e7eb, #d9d6d1);" data-darkreader-inline-fill=""></path>
+        <path fill="#D1D5DB" d="M39 46.5C39 20.819 59.819 0 85.5 0S132 20.819 132 46.5V123H39V46.5z" style="--darkreader-inline-fill: var(--darkreader-text-d1d5db, #cecac3);" data-darkreader-inline-fill=""></path>
+        <path fill="#BCC1C8" fill-rule="evenodd" d="M125 123h7V46.5C132 20.819 111.181 0 85.5 0c-1.177 0-2.345.044-3.5.13 24.046 1.79 43 21.866 43 46.37V123z" clip-rule="evenodd" style="--darkreader-inline-fill: var(--darkreader-text-bcc1c8, #c1bcb4);" data-darkreader-inline-fill=""></path>
+        <path fill="#E5E7EB" d="M0 124a1 1 0 011-1h131v4a8 8 0 01-8 8H1a1 1 0 01-1-1v-10zM155 123h21v121h-21z" style="--darkreader-inline-fill: var(--darkreader-text-e5e7eb, #d9d6d1);" data-darkreader-inline-fill=""></path>
+        <path fill="#D1D5DB" d="M166 123h10v121h-10z" style="--darkreader-inline-fill: var(--darkreader-text-d1d5db, #cecac3);" data-darkreader-inline-fill=""></path>
+        <path fill="#BCC1C8" fill-opacity=".51" d="M176 123h-21v18.5l11 1.5 10 7.5V123z" style="--darkreader-inline-fill: var(--darkreader-text-bcc1c8, #c1bcb4);" data-darkreader-inline-fill=""></path>
+    </g>
+    <defs>
+        <clipPath id="clip0">
+            <path fill="#fff" d="M0 0h345.791v244H0z" style="--darkreader-inline-fill: var(--darkreader-text-ffffff, #e8e6e3);" data-darkreader-inline-fill=""></path>
+        </clipPath>
+    </defs>
+</svg>
+            <div class="empty-notification__title">Belum ada notifikasi baru untuk Anda. </div>
+        </div>
+    </div>
+
+
+<div class="platform-notification__footer platform-notification__footer--discussion">
+    <a href="https://www.dicoding.com/notifications">
+        Lihat semua notifikasi
+        <svg width="16" height="16" class="" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5.13807 4.86201C4.87772 4.60166 4.45561 4.60166 4.19526 4.86201C3.93491 5.12236 3.93491 5.54447 4.19526 5.80482L6.39052 8.00008L4.19526 10.1953C3.93491 10.4557 3.93491 10.8778 4.19526 11.1382C4.45561 11.3985 4.87772 11.3985 5.13807 11.1382L7.80474 8.47149C8.06509 8.21114 8.06509 7.78903 7.80474 7.52868L5.13807 4.86201Z"></path>
+    <path d="M9.13807 4.86201C8.87772 4.60166 8.45561 4.60166 8.19526 4.86201C7.93491 5.12236 7.93491 5.54447 8.19526 5.80482L10.3905 8.00008L8.19526 10.1953C7.93491 10.4557 7.93491 10.8778 8.19526 11.1382C8.45561 11.3985 8.87772 11.3985 9.13807 11.1382L11.8047 8.47149C12.0651 8.21114 12.0651 7.78903 11.8047 7.52868L9.13807 4.86201Z"></path>
+</svg>
+    </a>
+</div></div>
+    </div>
+</div>
+</li>
+    
+            <li class="nav-item nav-mobile dropdown d-lg-none">
+            <a class="nav-link mobile-nav-toggle px-4" id="mobileNavigation" href="#" data-toggle="dropdown">
+                <span class="dcd-hamburger-icon"></span>
+            </a>
+            <div class="dropdown-menu navbar-dropdown mobile-nav" aria-labelledby="mobileNavigation">
+    <div class="mobile-nav__header ">
+                    <form action="https://www.dicoding.com/academies/list" class="search-course-form" data-show-result="true" hx-get="https://www.dicoding.com/academies/list" hx-push-url="true" hx-target="#course-list" hx-select="#course-list" hx-swap="outerHTML">
+    <input type="hidden" name="sc" value="course">
+
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" class="search-course-form__icon" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.00016 1.3335C3.87055 1.3335 1.3335 3.87055 1.3335 7.00016C1.3335 10.1298 3.87055 12.6668 7.00016 12.6668C10.1298 12.6668 12.6668 10.1298 12.6668 7.00016C12.6668 3.87055 10.1298 1.3335 7.00016 1.3335ZM2.66683 7.00016C2.66683 4.60693 4.60693 2.66683 7.00016 2.66683C9.3934 2.66683 11.3335 4.60693 11.3335 7.00016C11.3335 9.3934 9.3934 11.3335 7.00016 11.3335C4.60693 11.3335 2.66683 9.3934 2.66683 7.00016Z" fill="#A1A1AA" style="--darkreader-inline-fill: var(--darkreader-text-a1a1aa, #afa99e);" data-darkreader-inline-fill=""></path>
+    <path d="M10.1953 11.1381L13.5286 14.4715L14.4715 13.5286L11.1381 10.1953L10.1953 11.1381Z" fill="#A1A1AA" style="--darkreader-inline-fill: var(--darkreader-text-a1a1aa, #afa99e);" data-darkreader-inline-fill=""></path>
+</svg>
+
+    <input type="search" class="form-control search-course-form__input" name="q" autocomplete="off" placeholder="Apa yang ingin Anda pelajari?" aria-label="Apa yang ingin Anda pelajari?">
+
+    <div class="search-course-form__result-container">
+        <div class="search-course-form__result-list"></div>
+        <a href="https://www.dicoding.com/academies/list" class="search-course-form__result-footer remove-style-link font-weight-medium d-flex align-items-center">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.5144 2.12584C11.8164 1.95805 12.1836 1.95805 12.4856 2.12584L21.4856 7.12584C21.8031 7.30221 22 7.63683 22 8C22 8.36317 21.8031 8.69779 21.4856 8.87416L20 9.69951V16C20 16.4465 19.704 16.8389 19.2747 16.9615L17 17.6114V21C17 21.5523 16.5523 22 16 22C15.4477 22 15 21.5523 15 21V18.1829L12.2747 18.9615C12.0952 19.0128 11.9048 19.0128 11.7253 18.9615L4.72528 16.9615C4.29598 16.8389 4 16.4465 4 16V9.69951L2.51436 8.87416C2.19689 8.69779 2 8.36317 2 8C2 7.63683 2.19689 7.30221 2.51436 7.12584L11.5144 2.12584ZM17 15.5314L18 15.2457V10.8106L17 11.3662V15.5314ZM15 12.4773V16.1028L12 16.96L6 15.2457V10.8106L11.5144 13.8742C11.8164 14.0419 12.1836 14.0419 12.4856 13.8742L15 12.4773ZM16.0309 9.61666L13.7071 7.29289C13.3166 6.90237 12.6834 6.90237 12.2929 7.29289C11.9024 7.68342 11.9024 8.31658 12.2929 8.70711L14.2126 10.6268L12 11.856L5.05913 8L12 4.14396L18.9409 8L16.0309 9.61666Z" fill="#08768F" style="--darkreader-inline-fill: var(--darkreader-text-08768f, #6bddf7);" data-darkreader-inline-fill=""></path>
+            </svg>
+            <span class="ml-2 mr-auto">Lihat semua kelas</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="">
+    <path d="M10.1036 8.10355C10.2988 7.90829 10.2988 7.59171 10.1036 7.39645L6.60355 3.89645C6.40829 3.70118 6.09171 3.70118 5.89645 3.89645C5.70118 4.09171 5.70118 4.40829 5.89645 4.60355L9.04289 7.75L5.89645 10.8964C5.70118 11.0917 5.70118 11.4083 5.89645 11.6036C6.09171 11.7988 6.40829 11.7988 6.60355 11.6036L10.1036 8.10355Z" fill="#A1A1AA" style="--darkreader-inline-fill: var(--darkreader-text-a1a1aa, #afa99e);" data-darkreader-inline-fill=""></path>
+</svg>
+        </a>
+    </div>
+</form>
+        
+        <button type="button" class="btn mobile-nav__close-btn">
+            <svg class="" width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13 1L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""></path>
+    <path d="M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke=""></path>
+</svg>
+        </button>
+    </div>
+        <div class="mobile-nav__body">
+        <ul class="mobile-nav__menu">
+            <li class="mobile-nav__item">
+                <a class="mobile-nav__link" href="https://www.dicoding.com/learningpaths">
+                    <h6 class="font-weight-600 mb-0">Learning Path</h6>
+                    <div class="mobile-nav__icon">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M11.2392 4.03616L6.05371 4.50757L6.17443 5.83542L9.52607 5.53073L3.75705 11.2998L4.69986 12.2426L10.4689 6.47354L10.1642 9.82518L11.492 9.9459L11.9634 4.76045C11.9814 4.56341 11.9108 4.36859 11.7709 4.22869C11.631 4.08878 11.4362 4.01825 11.2392 4.03616Z" fill="currentColor"></path>
+</svg>                    </div>
+                </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a class="mobile-nav__link mobile-nav__collapse-toggle" data-toggle="collapse" data-target="#subscriptions-mobile" aria-expanded="false">
+                    <h6 class="font-weight-600 mb-0">Langganan</h6>
+                </a>
+                <div class="collapse mobile-nav__collapse" id="subscriptions-mobile">
+                    <a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/subscriptions/purchases">
+    <div class="icon">
+        <svg width="16" height="16" class="" viewBox="0 0 16 16" fill="#3F3F46" xmlns="http://www.w3.org/2000/svg" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill="">
+    <path d="M10.3335 6.6665C10.5896 6.6665 10.8232 6.57022 11.0002 6.41187C11.1771 6.57022 11.4107 6.6665 11.6668 6.6665C12.2191 6.6665 12.6668 6.21879 12.6668 5.6665C12.6668 5.11422 12.2191 4.6665 11.6668 4.6665C11.4107 4.6665 11.1771 4.76279 11.0002 4.92114C10.8232 4.76279 10.5896 4.6665 10.3335 4.6665C9.78121 4.6665 9.3335 5.11422 9.3335 5.6665C9.3335 6.21879 9.78121 6.6665 10.3335 6.6665Z" fill="currentColor"></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.00016 2.6665C1.63197 2.6665 1.3335 2.96498 1.3335 3.33317V11.9998C1.3335 12.368 1.63197 12.6665 2.00016 12.6665H14.0002C14.3684 12.6665 14.6668 12.368 14.6668 11.9998V3.33317C14.6668 2.96498 14.3684 2.6665 14.0002 2.6665H2.00016ZM2.66683 7.99984V3.99984H13.3335V7.99984H2.66683ZM2.66683 9.33317V11.3332H13.3335V9.33317H2.66683Z" fill="currentColor"></path>
+</svg>
+    </div>
+    <div class="ml-3">
+        <p class="font-weight-600 mb-1">Biaya Langganan</p>
+        <span class="text-menu">Bebas pilih kelas dengan berlangganan.</span>
+    </div>
+</a>
+<a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/tokens/activation">
+    <div class="icon">
+        <svg width="16" height="16" class="" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 3C3.44772 3 3 3.44772 3 4V11C3 11.5523 3.44772 12 4 12C4.55228 12 5 11.5523 5 11V9H20V16.7143H18C17.4477 16.7143 17 17.162 17 17.7143C17 18.2666 17.4477 18.7143 18 18.7143H21C21.5523 18.7143 22 18.2666 22 17.7143V4C22 3.44772 21.5523 3 21 3H4ZM20 7V5H5V7H20Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M7 16H5V18H7V16Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M8 16H10V18H8V16Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M13 16H11V18H13V16Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M3 13C2.44772 13 2 13.4477 2 14V20C2 20.5523 2.44772 21 3 21H15C15.5523 21 16 20.5523 16 20V14C16 13.4477 15.5523 13 15 13H3ZM4 15V19H14V15H4Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>
+    </div>
+    <div class="ml-3">
+        <p class="font-weight-600 mb-1">Aktivasi Token</p>
+        <span class="text-menu">Aktifkan token belajar Academy.</span>
+    </div>
+</a>
+                </div>
+            </li>
+            <li class="mobile-nav__item">
+                <a class="mobile-nav__link mobile-nav__collapse-toggle" data-toggle="collapse" role="button" data-target="#programs-mobile" aria-expanded="false">
+                    <h6 class="font-weight-600 mb-0">Program</h6>
+                </a>
+                <div class="collapse mobile-nav__collapse" id="programs-mobile">
+                    <a class="dropdown-item" href="https://aws.dicoding.com/">AWS AI Academy 2026</a>
+        <a class="dropdown-item" href="https://dicoding.elevaite.id/" target="_blank" rel="noreferrer noopener">Microsoft Elevate Training Center</a>
+        <a class="dropdown-item" href="https://bootcamp.dicoding.com/">Dicoding Bootcamp</a>
+        <a class="dropdown-item" href="https://go.dbs.com/dbsfcodingcamp" target="_blank" rel="noreferrer noopener">Coding Camp 2026 2.0 powered by DBS Foundation</a>
+        <a class="dropdown-item" href="https://www.dicoding.com/pijak">Pijak in collaboration with IBM SkillsBuild - Flash Class</a>
+                </div>
+            </li>
+            <li class="mobile-nav__item">
+                <a class="mobile-nav__link" href="https://www.dicoding.com/impact">
+                    <h6 class="font-weight-600 mb-0">Capaian &amp; Dampak</h6>
+                    <div class="mobile-nav__icon">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+    <path d="M11.2392 4.03616L6.05371 4.50757L6.17443 5.83542L9.52607 5.53073L3.75705 11.2998L4.69986 12.2426L10.4689 6.47354L10.1642 9.82518L11.492 9.9459L11.9634 4.76045C11.9814 4.56341 11.9108 4.36859 11.7709 4.22869C11.631 4.08878 11.4362 4.01825 11.2392 4.03616Z" fill="currentColor"></path>
+</svg>                    </div>
+                </a>
+            </li>
+            <li class="mobile-nav__item">
+                <a class="mobile-nav__link mobile-nav__collapse-toggle" data-toggle="collapse" role="button" data-target="#others-mobile" aria-expanded="false">
+                    <h6 class="font-weight-600 mb-0">Lainnya</h6>
+                </a>
+                <div class="collapse mobile-nav__collapse" id="others-mobile">
+                    <a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/challenges">
+    <div class="icon">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.4345 1.64683C6.55633 1.45191 6.76998 1.3335 6.99984 1.3335H8.99984C9.2297 1.3335 9.44334 1.45191 9.56517 1.64683L11.2318 4.3135C11.2981 4.41945 11.3332 4.54188 11.3332 4.66683V7.64337L13.0363 8.7788C13.2218 8.90244 13.3332 9.11059 13.3332 9.3335V12.0002C13.3332 12.3684 13.0347 12.6668 12.6665 12.6668H3.33317C2.96498 12.6668 2.6665 12.3684 2.6665 12.0002V9.3335C2.6665 9.11059 2.7779 8.90244 2.96337 8.7788L4.6665 7.64337V4.66683C4.6665 4.54188 4.70162 4.41945 4.76784 4.3135L6.4345 1.64683ZM5.99984 11.3335H7.33317V10.0002H8.6665V11.3335H9.99984V4.85803L8.63034 2.66683H7.36934L5.99984 4.85803V11.3335ZM4.6665 9.24584L3.99984 9.69029V11.3335H4.6665V9.24584ZM11.3332 11.3335V9.24584L11.9998 9.69029V11.3335H11.3332Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M5.33317 14.6668H10.6665V13.3335H5.33317V14.6668Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>    </div>
+    <div class="ml-3">
+        <p class="font-weight-600 mb-1">Dicoding Challenge</p>
+        <span class="text-menu">Asah skill Anda dengan mengikuti challenge.</span>
+    </div>
+</a>
+<a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/jobs/old">
+    <div class="icon">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M4.66683 2.737C4.66683 1.96187 5.26378 1.3335 6.00016 1.3335H10.0002C10.7365 1.3335 11.3335 1.96187 11.3335 2.737V4.14051H13.3335C14.0699 4.14051 14.6668 4.76889 14.6668 5.54402V13.2633C14.6668 14.0385 14.0699 14.6668 13.3335 14.6668H2.66683C1.93045 14.6668 1.3335 14.0385 1.3335 13.2633V5.54402C1.3335 4.76889 1.93045 4.14051 2.66683 4.14051H4.66683V2.737ZM10.0002 2.737V4.14051H6.00016V2.737H10.0002ZM13.3335 5.54402H2.66683V6.94753H13.3335V5.54402ZM13.3335 8.35104H2.66683V13.2633H13.3335V8.35104Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>    </div>
+    <div class="ml-3">
+        <p class="font-weight-600 mb-1">Dicoding Job</p>
+        <span class="text-menu">Temukan pekerjaan sesuai skill Anda.</span>
+    </div>
+</a>
+<a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/events">
+    <div class="icon">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" class="">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M11.3335 2.66667C11.3335 2.29848 11.035 2 10.6668 2C10.2986 2 10.0002 2.29848 10.0002 2.66667V3.33333H6.00016V2.66667C6.00016 2.29848 5.70169 2 5.3335 2C4.96531 2 4.66683 2.29848 4.66683 2.66667V3.33333H2.00016C1.63197 3.33333 1.3335 3.63181 1.3335 4V13.3333C1.3335 13.7015 1.63197 14 2.00016 14H14.0002C14.3684 14 14.6668 13.7015 14.6668 13.3333V4C14.6668 3.63181 14.3684 3.33333 14.0002 3.33333H11.3335V2.66667ZM13.3335 6V4.66667H2.66683V6L13.3335 6ZM2.66683 7.33333L13.3335 7.33333V12.6667H2.66683V7.33333Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>
+    </div>
+    <div class="ml-3">
+        <p class="font-weight-600 mb-1">Dicoding Event</p>
+        <span class="text-menu">Ikuti event dan bangun jaringan developer.</span>
+    </div>
+</a>
+<a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/mentoring">
+    <div class="icon">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22H2L4.92893 19.0711C3.11929 17.2614 2 14.7614 2 12ZM6.82843 20H12C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 14.1524 4.85124 16.1649 6.34315 17.6569L7.75736 19.0711L6.82843 20ZM11 6H13V18H11V6ZM7 9H9V15H7V9ZM15 9H17V15H15V9Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>
+    </div>
+    <div class="ml-3">
+        <p class="font-weight-600 mb-1">Dicoding Mentoring</p>
+        <span class="text-menu">Tingkatkan skill dengan mentoring bersama expert.</span>
+    </div>
+</a>
+    <a class="dropdown-item remove-style-link d-flex" href="https://www.dicoding.com/rewards">
+        <div class="icon">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M1.3335 5.3335V6.66683H2.66683V13.3335C2.66683 13.7017 2.96531 14.0002 3.3335 14.0002H12.6668C13.035 14.0002 13.3335 13.7017 13.3335 13.3335V6.66683H14.6668V5.3335H1.3335ZM12.0002 6.66683H4.00016V12.6668H12.0002V6.66683Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M12 9.33333V8H4V9.33333H12Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.00016 1.3335C6.79662 1.3335 7.51153 1.68267 8.00016 2.23628C8.48879 1.68267 9.2037 1.3335 10.0002 1.3335C11.4729 1.3335 12.6668 2.5274 12.6668 4.00016C12.6668 5.47292 11.4729 6.66683 10.0002 6.66683H6.00016C4.5274 6.66683 3.3335 5.47292 3.3335 4.00016C3.3335 2.5274 4.5274 1.3335 6.00016 1.3335ZM7.3335 5.3335V4.00016C7.3335 3.26378 6.73654 2.66683 6.00016 2.66683C5.26378 2.66683 4.66683 3.26378 4.66683 4.00016C4.66683 4.73654 5.26378 5.3335 6.00016 5.3335H7.3335ZM8.66683 5.3335H10.0002C10.7365 5.3335 11.3335 4.73654 11.3335 4.00016C11.3335 3.26378 10.7365 2.66683 10.0002 2.66683C9.26378 2.66683 8.66683 3.26378 8.66683 4.00016V5.3335Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>        </div>
+        <div class="ml-3">
+            <p class="font-weight-600 mb-1">Reward</p>
+            <span class="text-menu">Tukarkan point dengan reward menarik.</span>
+        </div>
+    </a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+        </li>
+    </ul>
+            </div>
+        </div>
+    </div>
+
+    </nav>
+
+    
+    <div class="content-wrapper" style="margin-top: 82px;">
+                        <div id="fb-root"></div>
+
+    
+    <div class="header-detail">
+    <!-- BAGIAN BACKGROUND COVER -->
+    <div class="container-fluid cover-challenge border-challenge">
+        <img src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/dos-58cefeae9787ee3c97969ee05c00d6c120260406114302.jpg">
+    </div>
+
+    <!-- BAGIAN PROFILE PICTURE -->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row pb-lg-5">
+                <div class="col-lg-10">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-5 col-md-4 mb-sm-7">
+                            <div class="wrapper-kelas white-bg wrapper-challenge rounded shadow minus-top mx-auto">
+                                <img src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/dos-c56fba4951e9c309214a81edcd9e780220260401143035.png" class="img-fluid" alt="AI Impact Challenge - Datathon">
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-sm-7 col-md-8 pt-3 pl-xl-4 pl-lg-5 pl-sm-4">
+                                                            <div></div>
+                            
+                            <h2>AI Impact Challenge - Datathon</h2>
+                            <small class="text-muted d-block mb-3">Diselenggarakan oleh: Dicoding Operational</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 pt-5 text-center">
+                    <span class="text-muted d-block mb-2">Hadiah:</span>
+                    <h3 class="d-inline"><b>1000</b></h3> <small>Pts</small>
+                    <hr>
+                                            <div class="text-info"><i class="fas fa-shield-alt"></i> TERJAMIN</div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content"></div>
+</div>
+    <div class="container-fluid mt-5">
+        <div class="container">
+            <div class="tab-menu-detail">
+    <div class="tab-wrapper">
+        <nav class="nav nav-tabs list mt-2" id="myTab">
+            <a class="nav-item nav-link active" href="https://www.dicoding.com/challenges/968" role="tab">Deskripsi</a>
+
+            
+                <a class="nav-item nav-link " href="https://www.dicoding.com/challenges/968/discussions">Pembahasan</a>
+
+                <a class="nav-item nav-link " href="https://www.dicoding.com/challenges/968/submittedapps" role="tab">Submission</a>
+
+                
+                    <a class="nav-item nav-link " href="https://www.dicoding.com/challenges/968/mysubmissions" role="tab">Submission Saya</a>
+
+                
+                <a class="nav-item nav-link " href="https://www.dicoding.com/challenges/968/winningapps">Pemenang</a>
+
+                            
+            
+        </nav>
+    </div>
+</div>                            <div class="tab-content pt-5" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row tab-content-detail">
+                        <div class="col-lg-9 order-lg-1 order-2 col-lg-push-3 pr-lg-5">
+
+                            
+                            <h2>Deskripsi</h2>
+                            <div class="fr-view">
+                                <p dir="ltr">Pesatnya perkembangan 
+Artificial Intelligence (AI) menghadirkan tantangan sekaligus peluang 
+besar bagi transformasi di berbagai sektor. Sebagai bagian dari 
+inisiatif global Microsoft,&nbsp;Microsoft Elevate Training 
+Center&nbsp;hadir untuk mempercepat pengembangan keterampilan digital 
+dan kompetensi AI di seluruh lapisan masyarakat. Kami berkomitmen 
+membangun talenta yang adaptif, kompeten, dan siap memimpin di era 
+transformasi digital.</p><p>Melalui program ini, kami menghadirkan AI 
+Impact Challenge, sebuah kompetisi datathon yang mengangkat studi kasus 
+nyata dari sektor industri dan pemerintahan. Di sini, peserta ditantang 
+untuk melampaui pemahaman teknis dengan mengimplementasikan solusi AI 
+yang inovatif, aplikatif, dan mampu memberikan dampak nyata yang terukur
+ bagi masyarakat.</p><h3 dir="ltr">Tema Datathon</h3><p dir="ltr">Datathon ini menghadirkan 5 tema utama yang dapat peserta selesaikan</p><ol><li dir="ltr"><strong>Urban Resilience &amp; Smart City</strong><br><strong>Problem Statement:</strong><br>Bagaimana
+ integrasi data publik dapat digunakan untuk menciptakan sistem 
+peringatan dini, optimasi infrastruktur, dan peningkatan kualitas 
+layanan publik yang adaptif terhadap pertumbuhan populasi di kawasan 
+perkotaan?<br><strong>Contoh Problem Spesifik:</strong><br>Optimalisasi 
+distribusi fasilitas publik (kesehatan/pendidikan) dan rute transportasi
+ logistik di Jakarta &amp; Jawa Barat untuk meminimalisir dampak 
+kerugian ekonomi akibat kemacetan dan risiko bencana (banjir)?</li><li dir="ltr"><strong>Ekonomi Digital &amp; Inklusi Keuangan</strong><br><strong>Problem Statement:</strong><br>Menganalisis
+ pola makroekonomi dan aktivitas keuangan digital untuk merumuskan 
+strategi penguatan ketahanan ekonomi masyarakat serta optimalisasi 
+penyaluran sumber daya finansial negara secara tepat sasaran.<br><strong>Contoh problem spesifik:</strong><br>Sejauh
+ mana efektivitas alokasi anggaran pemerintah (APBN/APBD) dalam 
+mendorong pertumbuhan UMKM dan daya beli masyarakat di tengah fluktuasi 
+suku bunga global?</li><li dir="ltr"><strong>Ketahanan Pangan &amp; Agrikultur Modern</strong><br><strong>Problem Statement:</strong><br>Mengidentifikasi
+ faktor-faktor yang mempengaruhi stabilitas rantai pasok pangan dari 
+hulu ke hilir untuk memastikan ketersediaan komoditas utama dan 
+keseimbangan harga di tingkat produsen maupun konsumen.<br><strong>Contoh problem spesifik:</strong><br>Bagaimana
+ pola anomali cuaca mempengaruhi produktivitas lahan padi di Jawa Tengah
+ dan Jawa Timur, dan bagaimana strategi stabilisasi harga pangan di 
+tingkat pasar induk?</li><li dir="ltr"><strong>UMKM Go-Online</strong><br><strong>Problem Statement:</strong><br>Mendorong transformasi digital pada UMKM untuk meningkatkan efisiensi dan daya saing usaha.<br>Contoh problem spesifik:<p dir="ltr">- Apa saja faktor yang mempengaruhi keberhasilan UMKM masuk online marketplace?<br>- Bagaimana strategi digital marketing untuk sub sektor tertentu? (Misal: kuliner, fast-fashion, perabotan, dsb.)<br>- Seperti apa klaster UMKM berdasarkan kesiapan digitalnya (digital readiness score)?</p></li><li dir="ltr"><p dir="ltr"><strong>Cybersecurity Awareness</strong><br><strong>Problem Statement</strong><br>Mengedukasi
+ masyarakat tentang keamanan siber (ancaman, penipuan, pemalsuan, dsb.) 
+untuk mendorong perilaku digital yang aman dan bertanggung jawab.<br><strong>Contoh problem spesifik:</strong><br>-
+ Bagaimana cara mendeteksi anomali serangan siber pada suatu akun?-- 
+Bagaimana cara memprediksi kerentanan suatu perangkat terhadap serangan 
+siber?<br>- Seperti apa bentuk dashboard keamanan digital yang cocok untuk masyarakat?</p></li></ol><h3 dir="ltr">Alur &amp; Timeline Pelaksanaan Datathon &nbsp; &nbsp;</h3><p><img src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/dos-bcfd75a269479fe0452c3ce44dd9b8e120260401140948.png" class="fr-fic fr-dii" alt="dos-bcfd75a269479fe0452c3ce44dd9b8e120260401140948.png"></p><h4 dir="ltr"><strong>Fase 1:</strong> <strong>Registration &amp; Call for Proposals (1 - 30 April 2026)</strong></h4><p dir="ltr">Tahap aktivasi nasional untuk menjaring talenta digital terbaik.</p><ul><li dir="ltr"><strong>Grand Launching</strong><strong>(1 April)</strong>: Perilisan program melalui kanal sosial media dicoding dan broadcast email ke peserta program.</li><li dir="ltr"><strong>Project Submission</strong>: Registrasi dan unggah proposal serta prototipe awal melalui platform Dicoding Challenges.</li></ul><h4 dir="ltr"><strong>Fase 2: Proposal Implementation &amp; Workshop (11 Mei - 5 Juni 2026)</strong></h4><p dir="ltr">Pendalaman teknis bagi 20 tim terbaik yang lolos kurasi awal.</p><ul><li dir="ltr">Capacity Building: Live session untuk meningkatkan kualitas project yang dihasilkan.<ul><li dir="ltr">Teknikal Workshop: Fokus pada implementasi teknis AI oleh Dicoding.&nbsp;</li></ul></li></ul><h4 dir="ltr"><strong>Fase 3: Presentation Day (17 Juni 2026)</strong></h4><p dir="ltr">Validasi solusi di hadapan juri yang sudah dipilih oleh penyelenggara.</p><ul><li dir="ltr"><strong>Finalist Pitching</strong>: Hanya akan dipilih 10 tim terbaik dari tahap implementasi proposal untuk mempresentasikan proyek mereka secara online.</li><li dir="ltr"><strong>Innovation Showcasing</strong>: Demonstrasi kapabilitas prototipe dalam menjawab tantangan strategis.</li></ul><h3>Kriteria Penilaian</h3><p>Penilaian solusi peserta akan dilakukan berdasarkan beberapa aspek utama:</p><ol><li dir="ltr">Metodologi dan Eksplorasi Data (Bobot: 25%)<br>Menilai kualitas Exploratory Data Analysis (EDA), pembersihan data (data cleaning), dan rekayasa fitur (feature engineering).</li><li dir="ltr">Performa Model dan Kualitas Kode (Bobot: 25%)<br>Menilai
+ ketepatan metrik evaluasi (seperti Akurasi, F1-Score, RMSE, dll.) dari 
+model Machine Learning/Deep Learning yang dibangun.</li><li dir="ltr">Pemanfaatan AI dan Layanan Microsoft Azure (Bobot: 30%)<br>Menilai
+ ketepatan, efektivitas, dan relevansi penggunaan teknologi Artificial 
+Intelligence (AI) serta layanan Microsoft Azure dalam solusi yang 
+dikembangkan.</li><li dir="ltr">Insight dan Solusi Strategis (Bobot: 20%)<br>Menilai
+ kemampuan peserta dalam menerjemahkan hasil model matematika/statistik 
+menjadi actionable insights (wawasan yang dapat ditindaklanjuti).</li></ol><p><strong><span style="color: rgb(184, 49, 47); --darkreader-inline-color: var(--darkreader-text-b8312f, #d45756);" data-darkreader-inline-color="">Kriteria penilaian ini akan berlaku untuk tahap proposal dan final submission.</span></strong></p><h3>Syarat dan Ketentuan Peserta</h3><ul><li dir="ltr">Challenge ini terbuka untuk umum dengan catatan harus terdaftar sebagai peserta Microsoft Elevate Training Center</li><li dir="ltr">Peserta
+ boleh mengikuti challenge secara individu atau tim (maksimal 3 orang). 
+Jika tim, semua anggota harus terdaftar sebagai peserta Microsoft 
+Elevate Training Center</li><li dir="ltr">Peserta harus mengembangkan produk digital berbasis Artificial Intelligence (AI).</li><li dir="ltr">Mengimplementasikan minimal 1 layanan gratis yang tersedia di Microsoft Azure, dengan opsi layanan tersedia dalam link berikut: <a href="https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account/#free-services">Daftar Layanan Azure</a></li><li dir="ltr">Luaran dari solusi yang ditawarkan harus berupa:&nbsp;<ul><li>Repositori Kode, Model, dan Dataset</li><li>Proposal Solusi</li></ul></li><li dir="ltr">Peserta dilarang untuk menggunakan data set yang terlindungi oleh hak cipta baik di dalam maupun di luar negeri.</li><li dir="ltr">Peserta
+ dilarang mengumpulkan project yang pernah dimenangkan dalam program 
+atau challenge lain, baik di dicoding.com/challenges maupun platform 
+lainnya.</li><li dir="ltr">Submission di upload pada halaman <a href="https://www.dicoding.com/challenges/list">challenge dicoding</a><ul><li dir="ltr">Proposal Submission: <a href="https://docs.google.com/document/d/1SJHpsce3RKimVLJxdsGpdx0tTubJKsAUTw53EMsU1BE/copy">Template Draft</a></li><li dir="ltr">Link Repositori: Link deployed project.</li></ul></li><li dir="ltr">Proposal yang masuk akan di kurasi dan pilih 20 terbaik untuk masuk ke tahap proposal implementation.</li><li dir="ltr">Semua keputusan juri dan hasil penilaian bersifat final dan tidak dapat diganggu gugat.</li></ul><h3>Proposal Implementation</h3><ul><li dir="ltr">Peserta pada tahapan ini akan melanjutkan proses development aplikasi yang akan dikembangkan</li><li dir="ltr">Peserta akan mendapatkan dukungan dalam pengembangan aplikasi melalui &nbsp;workshop yang akan disediakan oleh penyelenggara.</li><li dir="ltr">Diakhir periode proposal implementation peserta wajib mengumpulkan final submission berupa.<ul><li dir="ltr">Slide Project Brief: <a href="https://docs.google.com/presentation/d/1I6ek0Nl0hjwC9QjqlSxHv8pbRIhDMq7n/copy">Template Draft</a></li><li dir="ltr">Link Project: Link deployed project</li></ul></li><li dir="ltr"><p dir="ltr">Akan dipilih 10 peserta terbaik dari final submission untuk melakukan presentasi secara online.</p></li></ul><h3 dir="ltr">Presentation Day</h3><ul><li dir="ltr">10 peserta/tim terbaik akan mempresentasikan final submission di hadapan para juri.</li></ul><h3 dir="ltr">Hadiah</h3><p dir="ltr"><strong>Hadiah Monetary</strong></p><ul><li dir="ltr">Juara 1 → Rp10.000.000</li><li dir="ltr">Juara 2 → Rp7.000.000</li><li dir="ltr">Juara 3 → Rp5.000.000</li><li dir="ltr">Juara Spesial (Best Use of Microsoft Tech) → Rp2.500.000</li></ul><p dir="ltr"><strong>Hadiah Non-Monetary</strong></p><ul><li dir="ltr">Dicoding Points → 1.000 points (bisa ditukar dengan merchandise Dicoding di <a href="http://dicoding.com/rewards">dicoding.com/rewards</a>).<br><em>Diberikan untuk semua tim yang berhasil mendapatkan juara.</em></li></ul><h3 dir="ltr">Panduan Submission Tahap Proposal</h3><p dir="ltr">Peserta
+ atau salah satu anggota perwakilan tim mengumpulkan dokumen Project 
+Brief melalui platform Dicoding Challenge. Langkah-langkah:</p><ol><li dir="ltr">Klik Tombol “MASUKAN APLIKASI”</li><li dir="ltr">Pilih Platform: “Portofolio”</li><li dir="ltr">Isi bagian submission dengan ketentuan sebagai berikut:<ul><li>App ID: Hanya perlu diisi bila Aplikasi hendak dimasukkan untuk platform Android, IOS atau Windows Phone.<br>Anda dapat skip bagian ini bila project yang dibuat tidak tidak dimasukan dalam platform tersebut.</li><li>Nama Aplikasi: Nama lengkap project yang dibuat</li><li>Link Aplikasi: Tautan project yang sudah di deploy</li><li>Komentar:<ul><li dir="ltr"><p dir="ltr">Lampirkan project brief dengan menggunakan format berikut: <a href="https://docs.google.com/document/d/1SJHpsce3RKimVLJxdsGpdx0tTubJKsAUTw53EMsU1BE/copy">Template Draft<br></a>Silakan make a copy document yang sudah disediakan dan masukan link dokumen pada bagian komentar&nbsp;<strong>[PASTIKAN DOKUMEN DAPAT DIAKSES SECARA PUBLIK]</strong></p></li></ul></li><li dir="ltr"><p dir="ltr">Contoh Submission:<br><img src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/dos-51dc6d93bd62c1d4fdf0f3f4cd9e07b720260401142837.png" class="fr-fic fr-dii" alt="dos-51dc6d93bd62c1d4fdf0f3f4cd9e07b720260401142837.png"></p></li></ul></li></ol>
+                            </div>
+
+
+                            <h2 class="mt-5 pt-3">Hak Cipta</h2>
+                                                            <p>Hak Cipta terhadap tiap Aplikasi yang memenangkan Challenge ini tetap menjadi milik Developer.</p>
+                            
+                            <h2 class="mt-5 pt-3">Tipe Challenge</h2>
+
+                            
+                                <p>Challenge ini dapat diikuti oleh semua Aplikasi, sesuai dengan kriteria yang berlaku.</p>
+
+                            
+                            <h2 class="mt-5 pt-3">Submission</h2>
+
+                            <p>
+
+                                
+                                    Anda dapat memasukkan <strong>sebanyak mungkin Aplikasi yang Anda miliki.</strong>
+
+                                
+                            </p>
+
+                            
+                            
+                                                            <div class="border-top my-5">
+                                    <h2 class="mt-5">Referal</h2>
+                                    <p>Raih peluang untuk memperoleh bonus dengan membagikan referal melalui link atau tombol facebook share dibawah ini. <a href="http://blog.dicoding.com/mendapatkan-point-dengan-menggunakan-referal-link" target="_blank">Pelajari lebih lanjut</a> mengenai mekanisme referal ini.</p>
+
+                                    <a data-referal="https://www.dicoding.com/challenges/968/referrals/mine" class="btn btn-primary shadow js-challenge-referal-show">Tampilkan Link Referal</a>
+
+                                    <div class="js-referal-info">
+
+                                    </div>
+
+                                    <span class="js-referal-failure" style="display: none">
+                                        <p class="text-danger mt-5">Mohon maaf, kami mengalami kegagalan dalam memuat referal Anda. Cobalah beberapa saat lagi.</p>
+                                    </span>
+
+                                </div>
+                                                    </div>
+                        <div class="col-lg-3 order-lg-2 order-1 pl-lg-4 mb-5 challenge-info">
+                                                            <h3 class="mb-4">Sisa Waktu</h3>
+                                <h2>16 : 4 : 47</h2>
+                                <small class="d-block text-muted mb-5"><i>(hari : jam : menit)</i></small>
+                            
+                            <div class="row">
+                                <div class="col-sm-6">Jumlah pemenang</div>
+                                <div class="col-sm-6">: <b>4 orang</b></div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-sm-6">Kuota pemenang</div>
+                                <div class="col-sm-6">: <b>4 orang</b> (sisa kuota: 4)</div>
+                            </div>
+
+                            <div class="row mt-3">
+                                <div class="col-sm-6">Follower</div>
+                                <div class="col-sm-6">: <b>214 orang</b></div>
+                            </div>
+
+                                                            
+                                    <a href="https://www.dicoding.com/challenges/968/submitapp" class="btn btn-primary btn-block shadow mt-5"><i class="fas fa-cloud-upload-alt"></i> Masukkan Aplikasi</a>
+
+                                    
+                                        <form method="POST" action="https://www.dicoding.com/challenges/unfollow" accept-charset="UTF-8" class="inline spacier"><input name="_token" type="hidden" value="lONJc60o8gyJJQw7oTbLgqU62qDoBly74TfSY1Vb">
+                                        <input name="challenge_id" type="hidden" value="968">
+
+                                        <button class="btn btn-secondary btn-block shadow my-3" type="submit"><i class="far fa-eye-slash"></i> Berhenti Mengikuti Challenge Ini</button>
+
+                                        </form>
+
+                                                                        
+                                                                        
+    </div>
+                    </div>
+                </div>
+            </div>
+                    </div>
+    </div>
+                    <!-- FOOTER -->
+<div class="footer-commons">
+    <div class="container">
+        <hr class="footer-divider">
+        <div class="row">
+            <div class="col-sm-12 col-md-4 order-sm-0 order-md-0 py-5">
+                <div class="py-lg-5">
+                    <img src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/certificate_logo.png" alt="Dicoding Logo" style="max-height: 37px;" width="130" height="95">
+                    <p class="mt-3" style="font-size: 15px;">Dicoding Space<br>
+                        Jl. Batik Kumeli No.50, Sukaluyu,<br>
+                        Kec. Cibeunying Kaler, Kota Bandung <br>Jawa Barat 40123</p>
+                    <dl>
+                        <dd>
+                            <a href="https://www.instagram.com/dicoding" class="social-media-link p-1 p-md-0 mr-4 text-muted" target="_blank" rel="noopener"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M20.9471 8.30447C20.937 7.54709 20.7952 6.79724 20.5281 6.08847C20.2964 5.49062 19.9426 4.94767 19.4892 4.4943C19.0359 4.04093 18.4929 3.68712 17.8951 3.45547C17.1954 3.19283 16.4562 3.05081 15.7091 3.03547C14.7471 2.99247 14.4421 2.98047 12.0001 2.98047C9.55807 2.98047 9.24507 2.98047 8.29007 3.03547C7.54323 3.05092 6.80442 3.19294 6.10507 3.45547C5.50713 3.68696 4.96409 4.04071 4.5107 4.4941C4.05732 4.94749 3.70356 5.49053 3.47207 6.08847C3.2089 6.7876 3.06719 7.52658 3.05307 8.27347C3.01007 9.23647 2.99707 9.54147 2.99707 11.9835C2.99707 14.4255 2.99707 14.7375 3.05307 15.6935C3.06807 16.4415 3.20907 17.1795 3.47207 17.8805C3.70395 18.4782 4.05797 19.021 4.51151 19.4742C4.96505 19.9274 5.50813 20.281 6.10607 20.5125C6.8035 20.7857 7.54244 20.9378 8.29107 20.9625C9.25407 21.0055 9.55907 21.0185 12.0011 21.0185C14.4431 21.0185 14.7561 21.0185 15.7111 20.9625C16.4582 20.9478 17.1974 20.8061 17.8971 20.5435C18.4948 20.3115 19.0376 19.9576 19.4909 19.5043C19.9442 19.051 20.2982 18.5082 20.5301 17.9105C20.7931 17.2105 20.9341 16.4725 20.9491 15.7235C20.9921 14.7615 21.0051 14.4565 21.0051 12.0135C21.0031 9.57147 21.0031 9.26147 20.9471 8.30447V8.30447ZM11.9941 16.6015C9.44007 16.6015 7.37107 14.5325 7.37107 11.9785C7.37107 9.42447 9.44007 7.35547 11.9941 7.35547C13.2202 7.35547 14.396 7.84253 15.263 8.70951C16.13 9.5765 16.6171 10.7524 16.6171 11.9785C16.6171 13.2046 16.13 14.3804 15.263 15.2474C14.396 16.1144 13.2202 16.6015 11.9941 16.6015V16.6015ZM16.8011 8.26247C16.2041 8.26247 15.7231 7.78047 15.7231 7.18447C15.7231 7.04297 15.7509 6.90286 15.8051 6.77213C15.8592 6.6414 15.9386 6.52262 16.0387 6.42256C16.1387 6.32251 16.2575 6.24314 16.3882 6.18899C16.519 6.13484 16.6591 6.10697 16.8006 6.10697C16.9421 6.10697 17.0822 6.13484 17.2129 6.18899C17.3436 6.24314 17.4624 6.32251 17.5625 6.42256C17.6625 6.52262 17.7419 6.6414 17.7961 6.77213C17.8502 6.90286 17.8781 7.04297 17.8781 7.18447C17.8781 7.78047 17.3961 8.26247 16.8011 8.26247Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+    <path d="M11.9942 14.9826C13.6527 14.9826 14.9972 13.6381 14.9972 11.9796C14.9972 10.3211 13.6527 8.97656 11.9942 8.97656C10.3357 8.97656 8.99121 10.3211 8.99121 11.9796C8.99121 13.6381 10.3357 14.9826 11.9942 14.9826Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>
+</a>
+                            <a href="https://www.youtube.com/channel/UCM6BWkgiGrCHG967i_PyMiw" class="social-media-link p-1 p-md-0 mr-4 text-muted" target="_blank" rel="noopener"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M21.5928 7.20301C21.4789 6.78041 21.2563 6.39501 20.9472 6.08518C20.6381 5.77534 20.2532 5.55187 19.8308 5.43701C18.2648 5.00701 11.9998 5.00001 11.9998 5.00001C11.9998 5.00001 5.73584 4.99301 4.16884 5.40401C3.74677 5.52415 3.36266 5.75078 3.05341 6.06214C2.74415 6.3735 2.52013 6.75913 2.40284 7.18201C1.98984 8.74801 1.98584 11.996 1.98584 11.996C1.98584 11.996 1.98184 15.26 2.39184 16.81C2.62184 17.667 3.29684 18.344 4.15484 18.575C5.73684 19.005 11.9848 19.012 11.9848 19.012C11.9848 19.012 18.2498 19.019 19.8158 18.609C20.2383 18.4943 20.6236 18.2714 20.9335 17.9622C21.2434 17.653 21.4672 17.2682 21.5828 16.846C21.9968 15.281 21.9998 12.034 21.9998 12.034C21.9998 12.034 22.0198 8.76901 21.5928 7.20301ZM9.99584 15.005L10.0008 9.00501L15.2078 12.01L9.99584 15.005Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>
+</a>
+                            <a href="https://twitter.com/dicoding" class="social-media-link p-1 p-md-0 mr-4 text-muted" target="_blank" rel="noopener ms-2"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M19.633 7.99753C19.646 8.17253 19.646 8.34653 19.646 8.52053C19.646 13.8455 15.593 19.9815 8.186 19.9815C5.904 19.9815 3.784 19.3205 2 18.1725C2.324 18.2095 2.636 18.2225 2.973 18.2225C4.78599 18.2269 6.54765 17.6207 7.974 16.5015C7.13342 16.4863 6.31858 16.209 5.64324 15.7083C4.9679 15.2075 4.46578 14.5084 4.207 13.7085C4.456 13.7455 4.706 13.7705 4.968 13.7705C5.329 13.7705 5.692 13.7205 6.029 13.6335C5.11676 13.4493 4.29647 12.9549 3.70762 12.2342C3.11876 11.5136 2.79769 10.6112 2.799 9.68053V9.63053C3.336 9.92953 3.959 10.1165 4.619 10.1415C4.06609 9.77412 3.61272 9.27555 3.29934 8.69032C2.98596 8.10509 2.82231 7.45139 2.823 6.78753C2.823 6.03953 3.022 5.35353 3.371 4.75553C4.38314 6.00055 5.6455 7.01909 7.07634 7.74519C8.50717 8.47129 10.0746 8.88875 11.677 8.97053C11.615 8.67053 11.577 8.35953 11.577 8.04753C11.5767 7.51849 11.6807 6.99459 11.8831 6.50577C12.0854 6.01695 12.3821 5.57281 12.7562 5.19872C13.1303 4.82463 13.5744 4.52794 14.0632 4.32561C14.5521 4.12328 15.076 4.01927 15.605 4.01953C16.765 4.01953 17.812 4.50553 18.548 5.29153C19.4498 5.11715 20.3145 4.78795 21.104 4.31853C20.8034 5.24935 20.1738 6.03864 19.333 6.53853C20.1328 6.44731 20.9144 6.23698 21.652 5.91453C21.1011 6.71763 20.4185 7.42188 19.633 7.99753Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>
+</a>
+                            <a href="https://www.facebook.com/dicoding" class="social-media-link p-1 p-md-0 mr-4 text-muted" target="_blank" rel="noopener"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M13.397 20.9972V12.8012H16.162L16.573 9.59217H13.397V7.54817C13.397 6.62217 13.655 5.98817 14.984 5.98817H16.668V3.12717C15.8487 3.03936 15.0251 2.99696 14.201 3.00017C11.757 3.00017 10.079 4.49217 10.079 7.23117V9.58617H7.33203V12.7952H10.085V20.9972H13.397Z" fill="#3F3F46" style="--darkreader-inline-fill: var(--darkreader-text-3f3f46, #beb8b0);" data-darkreader-inline-fill=""></path>
+</svg>
+</a>
+                        </dd>
+                    </dl>
+                    <p class="mb-0 mt-5 "><b>Penghargaan</b></p>
+                    <div class="d-flex flex-wrap">
+                        <div>
+                            <img src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/image.svg" data-original="https://assets.cdn.dicoding.com/original/commons/aba-2019-2.png" class="lazy aba mt-3 mr-3" alt="Asean Business Award 2019" height="70" width="70">
+<noscript>
+    <img src='https://assets.cdn.dicoding.com/original/commons/aba-2019-2.png' class='noscript noscript-img aba mt-3 mr-3' alt='Asean Business Award 2019' />
+</noscript>
+                        </div>
+                        <div>
+                            <img src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/image.svg" data-original="https://assets.cdn.dicoding.com/original/commons/anugerah-diktisaintek-2024.png" class="lazy ad-2024 img-fluid mt-3" alt="Anugerah Diktisaintek 2024">
+<noscript>
+    <img src='https://assets.cdn.dicoding.com/original/commons/anugerah-diktisaintek-2024.png' class='noscript noscript-img ad-2024 img-fluid mt-3' alt='Anugerah Diktisaintek 2024' />
+</noscript>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-8 order-sm-2 order-md-1 py-5">
+                <div class="row justify-content-end py-lg-5">
+                    <div class="col-md-5 col-sm-12 mt-3 mt-md-0">
+                        <dl>
+                            <p class="dcd-slogan">
+                                Decode Ideas<br>
+                                Discover Potential
+                            </p>
+                            <dd>
+                                <a class="d-inline-block py-2 py-md-1" href="https://www.dicoding.com/about">
+                                    <h6 class="font-weight-500">Tentang Kami</h6>
+                                </a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mt-3 mt-md-0">
+                        <dl>
+                            <dd><a class="d-inline-block py-2 py-md-1" href="https://www.dicoding.com/blog">Blog</a></dd>
+                            <dd><a class="d-inline-block py-2 py-md-1" href="https://www.dicoding.com/rewards">Reward</a></dd>
+                            <dd><a class="d-inline-block py-2 py-md-1" href="https://www.dicoding.com/showcases">Showcase</a></dd>
+                            <dd><a class="d-inline-block py-2 py-md-1" href="https://www.dicoding.com/elite/registration">Dicoding Elite</a></dd>
+                        </dl>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mt-3 mt-md-0">
+                        <dl>
+                            <dd><a class="d-inline-block py-2 py-md-1" href="https://www.dicoding.com/consultation">Hubungi Kami</a></dd>
+                            <dd><a class="d-inline-block py-2 py-md-1" href="https://www.dicoding.com/faq">FAQ</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    <footer>
+    <div class="container">
+        <hr class="footer-divider">
+        <div class="row py-4">
+            <div class="col-lg-8 mb-2 mb-lg-0 text-center text-lg-left small">
+                © 2026 Dicoding
+                <span class="px-1 text-muted">|</span>
+                Dicoding adalah merek milik PT Presentologics, perusahaan induk dari PT Dicoding Akademi Indonesia.
+            </div>
+            <div class="col-lg-4 text-center text-lg-right small">
+                <a href="https://www.dicoding.com/termsofuse" class="remove-style-link">Terms</a>
+                <span class="mx-2 text-muted">•</span>
+                <a href="https://www.dicoding.com/privacy" class="remove-style-link">Privacy</a>
+            </div>
+        </div>
+    </div>
+</footer>
+            </div>
+
+    <div class="modal fade" id="what-is-points" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg  js-visible-when-already" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Apa itu Dicoding Point?</h4>
+            </div>
+
+            <div class="view overlay z-depth-1">
+                <img src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/image.svg" data-original="https://assets.cdn.dicoding.com/original/commons/apa_itu_point.png" class="lazy img-fluid" alt="Apa itu Dicoding Point?">
+<noscript>
+    <img src='https://assets.cdn.dicoding.com/original/commons/apa_itu_point.png' class='noscript noscript-img img-fluid' alt='Apa itu Dicoding Point?' />
+</noscript>
+                <div class="mask rgba-white-slight flex-center">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary shadow" data-dismiss="modal">Tutup</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <script>
+        window.Dicoding = {
+            csrfToken: 'lONJc60o8gyJJQw7oTbLgqU62qDoBly74TfSY1Vb',
+            routes: {
+                logger: 'https://www.dicoding.com/logs'
+            }
+        }
+    </script>
+    
+                    <script src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/commons_script-eafcdc3bcf.js"></script><link rel="stylesheet" href="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/css.css" media="all">
+        <script src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/v3common_script-b9557d715c.js"></script>
+
+    
+    <script src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/newchallengeshow_script-a04617cd00.js"></script>
+
+
+            <script>
+  (function (d, t) {
+    const BASE_URL = "https://app.chatwoot.com";
+    const g = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    g.src = BASE_URL + "/packs/js/sdk.js";
+    g.defer = true;
+    g.async = true;
+    setTimeout(function () {
+      s.parentNode.insertBefore(g, s);
+      g.onload = function () {
+        window.chatwootSDK.run({
+          websiteToken: "C6KhkskDpetvRFGR4BoswCqg",
+          baseUrl: BASE_URL,
+        });
+      };
+    }, 3000);
+  })(document, "script");
+
+  const previousUserId = sessionStorage.getItem("chatwootUserId");
+  const currentUserId = `4337748`;
+  const currentUserEmail = `mikailkuliah@gmail.com`;
+
+  window.addEventListener("chatwoot:ready", function () {
+    if (currentUserId) {
+      window.$chatwoot.setUser(currentUserId, {
+        email: `mikailkuliah@gmail.com`,
+        name: `Mikail Achmad`,
+        avatar_url: ``,
+        phone_number: ``,
+        identifier_hash: `aee28328bffd660afdf6762016d99c9c9350b7b3679d302a4a9e5f96b4ab54e7`
+      });
+
+      sessionStorage.setItem("chatwootUserId", currentUserId);
+    } else if (previousUserId) {
+      window.$chatwoot.reset();
+      sessionStorage.removeItem("chatwootUserId");
+    }
+  });
+</script>
+    
+
+<div><div class="grecaptcha-badge" data-style="bottomright" style="width: 256px; height: 60px; display: block; transition: right 0.3s; position: fixed; bottom: 14px; right: -186px; box-shadow: gray 0px 0px 5px; border-radius: 2px; overflow: hidden; --darkreader-inline-boxshadow: var(--darkreader-background-808080, #60686c) 0px 0px 5px;" data-darkreader-inline-boxshadow=""><div class="grecaptcha-logo"><iframe title="reCAPTCHA" width="256" height="60" role="presentation" name="a-px8ng4zic0qj" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="AI%20Impact%20Challenge%20-%20Datathon%20-%20Dicoding%20Indonesia_files/anchor.htm"></iframe></div><div class="grecaptcha-error"></div><textarea id="g-recaptcha-response-100000" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none; --darkreader-inline-border-top: var(--darkreader-border-c1c1c1, #42474a); --darkreader-inline-border-right: var(--darkreader-border-c1c1c1, #42474a); --darkreader-inline-border-bottom: var(--darkreader-border-c1c1c1, #42474a); --darkreader-inline-border-left: var(--darkreader-border-c1c1c1, #42474a);" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""></textarea></div><iframe style="display: none;"></iframe></div><deepl-input-controller translate="no"></deepl-input-controller><style id="cw-widget-styles" data-turbo-permanent="true">
+:root {
+  --b-100: #F2F3F7;
+  --s-700: #37546D;
+}
+
+.woot-widget-holder {
+  box-shadow: 0 5px 40px rgba(0, 0, 0, .16);
+  opacity: 1;
+  will-change: transform, opacity;
+  transform: translateY(0);
+  overflow: hidden !important;
+  position: fixed !important;
+  transition: opacity 0.2s linear, transform 0.25s linear;
+  z-index: 2147483000 !important;
+}
+
+.woot-widget-holder.woot-widget-holder--flat {
+  box-shadow: none;
+  border-radius: 0;
+  border: 1px solid var(--b-100);
+}
+
+.woot-widget-holder iframe {
+  border: 0;
+  color-scheme: normal;
+  height: 100% !important;
+  width: 100% !important;
+  max-height: 100vh !important;
+}
+
+.woot-widget-holder.has-unread-view {
+  border-radius: 0 !important;
+  min-height: 80px !important;
+  height: auto;
+  bottom: 94px;
+  box-shadow: none !important;
+  border: 0;
+}
+
+.woot-widget-bubble {
+  background: #1f93ff;
+  border-radius: 100px;
+  border-width: 0px;
+  bottom: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .16) !important;
+  cursor: pointer;
+  height: 64px;
+  padding: 0px;
+  position: fixed;
+  user-select: none;
+  width: 64px;
+  z-index: 2147483000 !important;
+  overflow: hidden;
+}
+
+.woot-widget-bubble.woot-widget-bubble--flat {
+  border-radius: 0;
+}
+
+.woot-widget-holder.woot-widget-holder--flat {
+  bottom: 90px;
+}
+
+.woot-widget-bubble.woot-widget-bubble--flat {
+  height: 56px;
+  width: 56px;
+}
+
+.woot-widget-bubble.woot-widget-bubble--flat svg {
+  margin: 16px;
+}
+
+.woot-widget-bubble.woot-widget-bubble--flat.woot--close::before,
+.woot-widget-bubble.woot-widget-bubble--flat.woot--close::after {
+  left: 28px;
+  top: 16px;
+}
+
+.woot-widget-bubble.unread-notification::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #ff4040;
+  border-radius: 100%;
+  top: 0px;
+  right: 0px;
+  border: 2px solid #ffffff;
+  transition: background 0.2s ease;
+}
+
+.woot-widget-bubble.woot-widget--expanded {
+  bottom: 24px;
+  display: flex;
+  height: 48px !important;
+  width: auto !important;
+  align-items: center;
+}
+
+.woot-widget-bubble.woot-widget--expanded div {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen-Sans, Ubuntu, Cantarell, Helvetica Neue, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  justify-content: center;
+  padding-right: 20px;
+  width: auto !important;
+}
+
+.woot-widget-bubble.woot-widget--expanded.woot-widget-bubble-color--lighter div{
+  color: var(--s-700);
+}
+
+.woot-widget-bubble.woot-widget--expanded svg {
+  height: 20px;
+  margin: 14px 8px 14px 16px;
+  width: 20px;
+}
+
+.woot-widget-bubble.woot-elements--left {
+  left: 20px;
+}
+
+.woot-widget-bubble.woot-elements--right {
+  right: 20px;
+}
+
+.woot-widget-bubble:hover {
+  background: #1f93ff;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, .4) !important;
+}
+
+.woot-widget-bubble svg {
+  all: revert;
+  height: 24px;
+  margin: 20px;
+  width: 24px;
+}
+
+.woot-widget-bubble.woot-widget-bubble-color--lighter path{
+  fill: var(--s-700);
+}
+
+@media only screen and (min-width: 667px) {
+  .woot-widget-holder.woot-elements--left {
+    left: 20px;
+ }
+  .woot-widget-holder.woot-elements--right {
+    right: 20px;
+ }
+}
+
+.woot--close:hover {
+  opacity: 1;
+}
+
+.woot--close::before, .woot--close::after {
+  background-color: #fff;
+  content: ' ';
+  display: inline;
+  height: 24px;
+  left: 32px;
+  position: absolute;
+  top: 20px;
+  width: 2px;
+}
+
+.woot-widget-bubble-color--lighter.woot--close::before, .woot-widget-bubble-color--lighter.woot--close::after {
+  background-color: var(--s-700);
+}
+
+.woot--close::before {
+  transform: rotate(45deg);
+}
+
+.woot--close::after {
+  transform: rotate(-45deg);
+}
+
+.woot--hide {
+  bottom: -100vh !important;
+  top: unset !important;
+  opacity: 0;
+  visibility: hidden !important;
+  z-index: -1 !important;
+}
+
+.woot-widget--without-bubble {
+  bottom: 20px !important;
+}
+.woot-widget-holder.woot--hide{
+  transform: translateY(40px);
+}
+.woot-widget-bubble.woot--close {
+  transform: translateX(0px) scale(1) rotate(0deg);
+  transition: transform 300ms ease, opacity 100ms ease, visibility 0ms linear 0ms, bottom 0ms linear 0ms;
+}
+.woot-widget-bubble.woot--close.woot--hide {
+  transform: translateX(8px) scale(.75) rotate(45deg);
+  transition: transform 300ms ease, opacity 200ms ease, visibility 0ms linear 500ms, bottom 0ms ease 200ms;
+}
+
+.woot-widget-bubble {
+  transform-origin: center;
+  will-change: transform, opacity;
+  transform: translateX(0) scale(1) rotate(0deg);
+  transition: transform 300ms ease, opacity 100ms ease, visibility 0ms linear 0ms, bottom 0ms linear 0ms;
+}
+.woot-widget-bubble.woot--hide {
+  transform: translateX(8px) scale(.75) rotate(-30deg);
+  transition: transform 300ms ease, opacity 200ms ease, visibility 0ms linear 500ms, bottom 0ms ease 200ms;
+}
+
+.woot-widget-bubble.woot-widget--expanded {
+  transform: translateX(0px);
+  transition: transform 300ms ease, opacity 100ms ease, visibility 0ms linear 0ms, bottom 0ms linear 0ms;
+}
+.woot-widget-bubble.woot-widget--expanded.woot--hide {
+  transform: translateX(8px);
+  transition: transform 300ms ease, opacity 200ms ease, visibility 0ms linear 500ms, bottom 0ms ease 200ms;
+}
+.woot-widget-bubble.woot-widget-bubble--flat.woot--close {
+  transform: translateX(0px);
+  transition: transform 300ms ease, opacity 10ms ease, visibility 0ms linear 0ms, bottom 0ms linear 0ms;
+}
+.woot-widget-bubble.woot-widget-bubble--flat.woot--close.woot--hide {
+  transform: translateX(8px);
+  transition: transform 300ms ease, opacity 200ms ease, visibility 0ms linear 500ms, bottom 0ms ease 200ms;
+}
+.woot-widget-bubble.woot-widget--expanded.woot-widget-bubble--flat {
+  transform: translateX(0px);
+  transition: transform 300ms ease, opacity 200ms ease, visibility 0ms linear 0ms, bottom 0ms linear 0ms;
+}
+.woot-widget-bubble.woot-widget--expanded.woot-widget-bubble--flat.woot--hide {
+  transform: translateX(8px);
+  transition: transform 300ms ease, opacity 200ms ease, visibility 0ms linear 500ms, bottom 0ms ease 200ms;
+}
+
+@media only screen and (max-width: 667px) {
+  .woot-widget-holder {
+    height: 100%;
+    right: 0;
+    top: 0;
+    width: 100%;
+ }
+
+ .woot-widget-holder iframe {
+    min-height: 100% !important;
+  }
+
+
+ .woot-widget-holder.has-unread-view {
+    height: auto;
+    right: 0;
+    width: auto;
+    bottom: 0;
+    top: auto;
+    max-height: 100vh;
+    padding: 0 8px;
+  }
+
+  .woot-widget-holder.has-unread-view iframe {
+    min-height: unset !important;
+  }
+
+ .woot-widget-holder.has-unread-view.woot-elements--left {
+    left: 0;
+  }
+
+  .woot-widget-bubble.woot--close {
+    bottom: 60px;
+    opacity: 0;
+    visibility: hidden !important;
+    z-index: -1 !important;
+  }
+}
+
+@media only screen and (min-width: 667px) {
+  .woot-widget-holder {
+    border-radius: 16px;
+    bottom: 104px;
+    height: calc(90% - 64px - 20px);
+    max-height: 640px !important;
+    min-height: 250px !important;
+    width: 400px !important;
+ }
+}
+
+.woot-hidden {
+  display: none !important;
+}
+</style><style class="darkreader darkreader--sync" media="screen"></style><div class="woot-widget-holder woot--hide woot-elements--right" id="cw-widget-holder" data-turbo-permanent="true"><iframe src="https://app.chatwoot.com/widget?website_token=C6KhkskDpetvRFGR4BoswCqg&amp;cw_conversation=eyJhbGciOiJIUzI1NiJ9.eyJzb3VyY2VfaWQiOiI4N2JkZjgwNy0xY2UyLTQ2Y2MtYjA4Mi1kYTM4NGQ1MzQyYjQiLCJpbmJveF9pZCI6NTY1MjEsImV4cCI6MTc5MTcyMDY1OCwiaWF0IjoxNzc2MTY4NjU4fQ.MH7v66KIjsz_-bqTzJPQzCr2uykAlS2i7WSn6QThP_A" allow="camera;microphone;fullscreen;display-capture;picture-in-picture;clipboard-write;" id="chatwoot_live_chat_widget" style=""></iframe></div><div class="woot--bubble-holder" id="cw-bubble-holder" data-turbo-permanent="true"><button class="woot-widget-bubble woot-elements--right" title="Open chat window" style="background: rgb(45, 62, 80); --darkreader-inline-bgcolor: var(--darkreader-background-2d3e50, #243240); --darkreader-inline-bgimage: none;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage=""><svg id="woot-widget-bubble-icon" width="24" height="24" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M240.808 240.808H122.123C56.6994 240.808 3.45695 187.562 3.45695 122.122C3.45695 56.7031 56.6994 3.45697 122.124 3.45697C187.566 3.45697 240.808 56.7031 240.808 122.122V240.808Z" fill="#FFFFFF" style="--darkreader-inline-fill: var(--darkreader-text-ffffff, #e8e6e3);" data-darkreader-inline-fill=""></path></svg></button><button class="woot-elements--right woot-widget-bubble woot--close woot--hide" style="background: rgb(45, 62, 80); --darkreader-inline-bgcolor: var(--darkreader-background-2d3e50, #243240); --darkreader-inline-bgimage: none;" data-darkreader-inline-bgcolor="" data-darkreader-inline-bgimage=""></button></div></body></html>

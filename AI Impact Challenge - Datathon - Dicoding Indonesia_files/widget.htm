@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html data-darkreader-mode="dynamic" data-darkreader-scheme="dark" dir="ltr" style="--widget-color: #2D3E50; --darkreader-bg--widget-color: var(--darkreader-background-2d3e50, #243240);"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><style class="darkreader darkreader--fallback" media="screen"></style><style class="darkreader darkreader--user-agent" media="screen">@layer {
+html {
+    color-scheme: dark !important;
+}
+iframe {
+    color-scheme: dark !important;
+}
+html, body {
+    border-color: var(--darkreader-border-4c4c4c, #736b5e);
+    color: var(--darkreader-text-000000, #e8e6e3);
+}
+a {
+    color: var(--darkreader-text-0040ff, #3391ff);
+}
+table {
+    border-color: var(--darkreader-border-808080, #545b5e);
+}
+mark {
+    color: var(--darkreader-text-000000, #e8e6e3);
+}
+::placeholder {
+    color: var(--darkreader-text-a9a9a9, #b2aba1);
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    background-color: var(--darkreader-background-faffbd, #404400) !important;
+    color: var(--darkreader-text-000000, #e8e6e3) !important;
+}
+::selection {
+    background-color: var(--darkreader-background-0060d4, #004daa) !important;
+    color: var(--darkreader-text-ffffff, #e8e6e3) !important;
+}
+::-moz-selection {
+    background-color: var(--darkreader-background-0060d4, #004daa) !important;
+    color: var(--darkreader-text-ffffff, #e8e6e3) !important;
+}
+}</style><style class="darkreader darkreader--text" media="screen"></style><style class="darkreader darkreader--invert" media="screen">.jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, img.Wirisformula, a[data-testid="headerMediumLogo"]>svg, .d2l-navigation-link-image-container, .d2l-iframe-loading-container, div.mc-ip-hide[style*="background: rgb(255, 255, 255) !important"] {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+}</style><style class="darkreader darkreader--inline" media="screen">[data-darkreader-inline-bgcolor] {
+  background-color: var(--darkreader-inline-bgcolor) !important;
+}
+[data-darkreader-inline-bgimage] {
+  background-image: var(--darkreader-inline-bgimage) !important;
+}
+[data-darkreader-inline-border] {
+  border-color: var(--darkreader-inline-border) !important;
+}
+[data-darkreader-inline-border-bottom] {
+  border-bottom-color: var(--darkreader-inline-border-bottom) !important;
+}
+[data-darkreader-inline-border-left] {
+  border-left-color: var(--darkreader-inline-border-left) !important;
+}
+[data-darkreader-inline-border-right] {
+  border-right-color: var(--darkreader-inline-border-right) !important;
+}
+[data-darkreader-inline-border-top] {
+  border-top-color: var(--darkreader-inline-border-top) !important;
+}
+[data-darkreader-inline-boxshadow] {
+  box-shadow: var(--darkreader-inline-boxshadow) !important;
+}
+[data-darkreader-inline-color] {
+  color: var(--darkreader-inline-color) !important;
+}
+[data-darkreader-inline-fill] {
+  fill: var(--darkreader-inline-fill) !important;
+}
+[data-darkreader-inline-stroke] {
+  stroke: var(--darkreader-inline-stroke) !important;
+}
+[data-darkreader-inline-outline] {
+  outline-color: var(--darkreader-inline-outline) !important;
+}
+[data-darkreader-inline-stopcolor] {
+  stop-color: var(--darkreader-inline-stopcolor) !important;
+}
+[data-darkreader-inline-bg] {
+  background: var(--darkreader-inline-bg) !important;
+}
+[data-darkreader-inline-border-short] {
+  border: var(--darkreader-inline-border-short) !important;
+}
+[data-darkreader-inline-border-bottom-short] {
+  border-bottom: var(--darkreader-inline-border-bottom-short) !important;
+}
+[data-darkreader-inline-border-left-short] {
+  border-left: var(--darkreader-inline-border-left-short) !important;
+}
+[data-darkreader-inline-border-right-short] {
+  border-right: var(--darkreader-inline-border-right-short) !important;
+}
+[data-darkreader-inline-border-top-short] {
+  border-top: var(--darkreader-inline-border-top-short) !important;
+}
+[data-darkreader-inline-invert] {
+    filter: invert(100%) hue-rotate(180deg);
+}</style><style class="darkreader darkreader--variables" media="screen">:root {
+   --darkreader-neutral-background: var(--darkreader-background-ffffff, #181a1b);
+   --darkreader-neutral-text: var(--darkreader-text-000000, #e8e6e3);
+   --darkreader-selection-background: var(--darkreader-background-0060d4, #004daa);
+   --darkreader-selection-text: var(--darkreader-text-ffffff, #e8e6e3);
+}</style><style class="darkreader darkreader--root-vars" media="screen"></style>
+    <title>Chatwoot</title>
+    <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="qG1i9FRVAIFuPtkNFbg-r_sxLD7ccNFX8MCcHWIpDXmY1nHolRveJot-DjGeSg_DqUKjEGUtcwtaB3j04pImFA">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <script>
+      window.chatwootWebChannel = {
+        avatarUrl: 'https://app.chatwoot.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCQ3JaS2dFPSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--7dc24bc5680d84df4383ca94237549ea259ca335/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjkwYjE5bWFXeHNXd2RwQWZvdyIsImV4cCI6bnVsbCwicHVyIjoidmFyaWF0aW9uIn19--624b3ceb3fdf42c4b07c7818563fe60603b6095b/New%20UI%20Logo%20(1).png',
+        hasAConnectedAgentBot: '',
+        locale: 'id',
+        websiteName: 'Dicoding',
+        websiteToken: 'C6KhkskDpetvRFGR4BoswCqg',
+        welcomeTagline: "Terima kasih telah mengunjungi Dicoding! Ada yang bisa kami bantu untuk perjalanan belajarmu?",
+        welcomeTitle: 'Halo Developers 👋',
+        widgetColor: '#2D3E50',
+        portal: {"id":608,"account_id":112393,"name":"Dicoding Help","slug":"dicoding-help","custom_domain":null,"color":"#2D3E50","homepage_link":"https://www.dicoding.com/","page_title":"Dicoding Help","header_text":"Pusat Bantuan","created_at":"2025-02-27T06:46:47.554Z","updated_at":"2025-03-13T09:20:50.402Z","config":{"default_locale":"id","allowed_locales":["en","id"]},"archived":false,"channel_web_widget_id":27362,"ssl_settings":{}},
+        enabledFeatures: ["attachments","emoji_picker","end_conversation","use_inbox_avatar_for_bot"],
+        enabledLanguages: [{"name":"English (en)","iso_639_1_code":"en"},{"name":"العربية (ar)","iso_639_1_code":"ar"},{"name":"Nederlands (nl) ","iso_639_1_code":"nl"},{"name":"Français (fr)","iso_639_1_code":"fr"},{"name":"Deutsch (de)","iso_639_1_code":"de"},{"name":"Italiano (it)","iso_639_1_code":"it"},{"name":"日本語 (ja)","iso_639_1_code":"ja"},{"name":"한국어 (ko)","iso_639_1_code":"ko"},{"name":"Português (pt)","iso_639_1_code":"pt"},{"name":"русский (ru)","iso_639_1_code":"ru"},{"name":"Español (es)","iso_639_1_code":"es"},{"name":"മലയാളം (ml)","iso_639_1_code":"ml"},{"name":"Català (ca)","iso_639_1_code":"ca"},{"name":"ελληνικά (el)","iso_639_1_code":"el"},{"name":"Português Brasileiro (pt-BR)","iso_639_1_code":"pt_BR"},{"name":"Română (ro)","iso_639_1_code":"ro"},{"name":"தமிழ் (ta)","iso_639_1_code":"ta"},{"name":"فارسی (fa)","iso_639_1_code":"fa"},{"name":"中文 (台湾) (zh-TW)","iso_639_1_code":"zh_TW"},{"name":"Tiếng Việt (vi)","iso_639_1_code":"vi"},{"name":"dansk (da)","iso_639_1_code":"da"},{"name":"Türkçe (tr)","iso_639_1_code":"tr"},{"name":"čeština (cs)","iso_639_1_code":"cs"},{"name":"suomi, suomen kieli (fi)","iso_639_1_code":"fi"},{"name":"Bahasa Indonesia (id)","iso_639_1_code":"id"},{"name":"Svenska (sv)","iso_639_1_code":"sv"},{"name":"magyar nyelv (hu)","iso_639_1_code":"hu"},{"name":"norsk (no)","iso_639_1_code":"no"},{"name":"中文 (zh-CN)","iso_639_1_code":"zh_CN"},{"name":"język polski (pl)","iso_639_1_code":"pl"},{"name":"slovenčina (sk)","iso_639_1_code":"sk"},{"name":"украї́нська мо́ва (uk)","iso_639_1_code":"uk"},{"name":"ภาษาไทย (th)","iso_639_1_code":"th"},{"name":"latviešu valoda (lv)","iso_639_1_code":"lv"},{"name":"íslenska (is)","iso_639_1_code":"is"},{"name":"עִברִית (he)","iso_639_1_code":"he"},{"name":"lietuvių (lt)","iso_639_1_code":"lt"},{"name":"Српски (sr)","iso_639_1_code":"sr"},{"name":"български (bg)","iso_639_1_code":"bg"},{"name":"Eesti keel (et)","iso_639_1_code":"et"}],
+        replyTime: 'in_a_few_hours',
+        preChatFormEnabled: true,
+        preChatFormOptions: {"pre_chat_fields":[{"name":"emailAddress","type":"email","label":"Email","enabled":true,"required":true,"field_type":"standard","placeholder":"Masukkan email Anda"},{"name":"fullName","type":"text","label":"Nama Lengkap","enabled":true,"required":false,"field_type":"standard","placeholder":"Masukkan nama lengkap Anda"},{"name":"phoneNumber","type":"text","label":"Phone number","enabled":false,"required":false,"field_type":"standard","placeholder":"phoneNumber"},{"name":"issue_type","type":"list","label":"Pilih Topik","values":["Langganan Dicoding","Promo Dicoding","Program Beasiswa","Program Bootcamp","Konsultasi Belajar","Kendala Akun Dicoding","Dicoding Jobs","Asah","Tempa","Lainnya"],"enabled":true,"required":true,"regex_cue":null,"field_type":"conversation_attribute","placeholder":"Pilih Topik","regex_pattern":null}],"pre_chat_message":"Beri tahu apa yang bisa dibantu..."},
+        workingHoursEnabled: true,
+        csatSurveyEnabled: true,
+        workingHours: [{"id":390616,"inbox_id":56521,"account_id":112393,"day_of_week":0,"closed_all_day":true,"open_hour":null,"open_minutes":null,"close_hour":null,"close_minutes":null,"created_at":"2025-02-07T08:10:24.413Z","updated_at":"2025-02-07T08:10:24.413Z","open_all_day":false},{"id":390618,"inbox_id":56521,"account_id":112393,"day_of_week":2,"closed_all_day":false,"open_hour":8,"open_minutes":0,"close_hour":17,"close_minutes":0,"created_at":"2025-02-07T08:10:24.435Z","updated_at":"2025-04-07T01:43:05.025Z","open_all_day":false},{"id":390619,"inbox_id":56521,"account_id":112393,"day_of_week":3,"closed_all_day":false,"open_hour":8,"open_minutes":0,"close_hour":17,"close_minutes":0,"created_at":"2025-02-07T08:10:24.441Z","updated_at":"2025-03-24T01:38:42.136Z","open_all_day":false},{"id":390622,"inbox_id":56521,"account_id":112393,"day_of_week":6,"closed_all_day":true,"open_hour":null,"open_minutes":null,"close_hour":null,"close_minutes":null,"created_at":"2025-02-07T08:10:24.458Z","updated_at":"2025-02-07T08:10:24.458Z","open_all_day":false},{"id":390617,"inbox_id":56521,"account_id":112393,"day_of_week":1,"closed_all_day":false,"open_hour":8,"open_minutes":0,"close_hour":17,"close_minutes":0,"created_at":"2025-02-07T08:10:24.432Z","updated_at":"2026-03-22T14:01:36.776Z","open_all_day":false},{"id":390620,"inbox_id":56521,"account_id":112393,"day_of_week":4,"closed_all_day":false,"open_hour":8,"open_minutes":0,"close_hour":17,"close_minutes":0,"created_at":"2025-02-07T08:10:24.448Z","updated_at":"2026-03-22T14:01:36.785Z","open_all_day":false},{"id":390621,"inbox_id":56521,"account_id":112393,"day_of_week":5,"closed_all_day":false,"open_hour":8,"open_minutes":0,"close_hour":17,"close_minutes":0,"created_at":"2025-02-07T08:10:24.450Z","updated_at":"2026-04-07T01:42:51.730Z","open_all_day":false}],
+        outOfOfficeMessage: "Terima kasih, pesan Anda telah kami terima.\n\nSebagai informasi jam operasional kami dimulai dari Hari Senin-Jum'at pukul 08.00 WIB s/d 17:00 WIB (tidak termasuk hari libur nasional).\n\nSayangnya saat ini kami sedang tidak berada di jam tersebut. Namun tak perlu khawatir, setelah kembali, kami akan langsung segera menghubungi. \n\nMohon dengan sabar menanti yah. Terima kasih 😊 🙏",
+        utcOffset: '+07:00',
+        timezone: 'Asia/Jakarta',
+        allowMessagesAfterResolved: false,
+        disableBranding: false,
+      }
+      window.chatwootPubsubToken = 'qcL85bKszMQcdYM2yJeVvhCu'
+      window.authToken = 'eyJhbGciOiJIUzI1NiJ9.eyJzb3VyY2VfaWQiOiI4N2JkZjgwNy0xY2UyLTQ2Y2MtYjA4Mi1kYTM4NGQ1MzQyYjQiLCJpbmJveF9pZCI6NTY1MjEsImV4cCI6MTc5MTcyMDY1OCwiaWF0IjoxNzc2MTY4NjU4fQ.MH7v66KIjsz_-bqTzJPQzCr2uykAlS2i7WSn6QThP_A'
+      window.globalConfig = {"LOGO_THUMBNAIL":"/brand-assets/logo_thumbnail.svg","BRAND_NAME":"Chatwoot","WIDGET_BRAND_URL":"https://www.chatwoot.com","DIRECT_UPLOADS_ENABLED":false,"MAXIMUM_FILE_UPLOAD_SIZE":40,"INSTALLATION_NAME":"Chatwoot"}
+    </script>
+    
+    <script src="widget_data/widget-T-dw2pKj.js" crossorigin="anonymous" type="module"></script><link rel="modulepreload" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/_plugin-vue_export-helper-BTQ8gHAs.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/useBranding-CVpGK5TD.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/vue-dompurify-html-Bb1lQ-LC.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/sharedFrameEvents-0qZ2yOho.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/utils.esm-CvkvYRsZ.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/constants-lVAyZKq6.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/Validators-_eR7dzmG.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/index-CFHgCRyY.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/Icon-DzbDd_Ew.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/Branding-CaImJoI8.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/module-BqxCsuv1.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/_commonjsHelpers-BosuxZz1.js" as="script" crossorigin="anonymous">
+<link rel="modulepreload" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/index-DN3rM4CW.js" as="script" crossorigin="anonymous"><link rel="stylesheet" href="widget_data/widget-Dp_-hqON.css" media="screen"><style class="darkreader darkreader--sync" media="screen"></style>
+<link rel="stylesheet" href="widget_data/useBranding-DSFJg_40.css" media="screen"><style class="darkreader darkreader--sync" media="screen"></style>
+  <meta name="darkreader" content="71fcd2b7c365408895f1ca1a94343d67"><style class="darkreader darkreader--override" media="screen">.vimvixen-hint {
+    background-color: var(--darkreader-background-ffd76e, #684b00) !important;
+    border-color: var(--darkreader-background-c59d00, #9e7e00) !important;
+    color: var(--darkreader-text-302505, #d7d4cf) !important;
+}
+#vimvixen-console-frame {
+    color-scheme: light !important;
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+#edge-translate-panel-body,
+.MuiTypography-body1,
+.nfe-quote-text {
+    color: var(--darkreader-neutral-text) !important;
+}
+gr-main-header {
+    background-color: var(--darkreader-background-add8e6, #1b4958) !important;
+}
+.tou-z65h9k,
+.tou-mignzq,
+.tou-1b6i2ox,
+.tou-lnqlqk {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.tou-75mvi {
+    background-color: var(--darkreader-background-cfecf5, #0f3a47) !important;
+}
+.tou-ta9e87,
+.tou-1w3fhi0,
+.tou-1b8t2us,
+.tou-py7lfi,
+.tou-1lpmd9d,
+.tou-1frrtv8,
+.tou-17ezmgn {
+    background-color: var(--darkreader-background-f5f5f5, #1e2021) !important;
+}
+.tou-uknfeu {
+    background-color: var(--darkreader-background-faedda, #432c09) !important;
+}
+.tou-6i3zyv {
+    background-color: var(--darkreader-background-85c3d8, #245d70) !important;
+}
+div.mermaid-viewer-control-panel .btn {
+    background-color: var(--darkreader-neutral-background);
+    fill: var(--darkreader-neutral-text);
+}
+svg g rect.er {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.entityBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxOdd {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.er.attributeBoxEven {
+    fill: var(--darkreader-selection-background);
+    fill-opacity: 0.8 !important;
+}
+svg rect.er.relationshipLabelBox {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g g.nodes rect,
+svg g g.nodes polygon {
+    fill: var(--darkreader-neutral-background) !important;
+}
+svg g rect.task {
+    fill: var(--darkreader-selection-background) !important;
+}
+svg line.messageLine0,
+svg line.messageLine1 {
+    stroke: var(--darkreader-neutral-text) !important;
+}
+div.mermaid .actor {
+    fill: var(--darkreader-neutral-background) !important;
+}
+mitid-authenticators-code-app > .code-app-container {
+    background-color: white !important;
+    padding-top: 1rem;
+}
+iframe#unpaywall[src$="unpaywall.html"] {
+    color-scheme: light !important;
+}
+select {
+    --darkreader-bg--form-control-background-color: rgba(22, 22, 22, 0) !important;
+}
+body#tumblr {
+    --darkreader-bg--secondary-accent: 31, 32, 34 !important;
+    --darkreader-bg--white: 23, 23, 23 !important;
+    --darkreader-text--black: 228, 224, 218 !important;
+}
+:host {
+    --d2l-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-button-icon-background-color-hover: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-color-ferrite: var(--darkreader-neutral-text) !important;
+    --d2l-color-sylvite: var(--darkreader-bg--d2l-color-sylvite) !important;
+    --d2l-dropdown-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-dropdown-border-color: var(--darkreader-border--d2l-color-mica) !important;
+    --d2l-input-backgroud-color: var(--darkreader-neutral-background) !important;
+    --d2l-menu-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+    --d2l-tooltip-background-color: var(--darkreader-neutral-background) !important;
+    --d2l-tooltip-border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+:host([_floating]) .d2l-floating-buttons-container {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-top-color: var(--darkreader-border--d2l-color-mica) !important;
+    opacity: 0.88 !important;
+}
+d2l-card {
+    background: var(--darkreader-neutral-background) !important;
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+d2l-dropdown-content > div,
+d2l-menu-item {
+    background-color: var(--darkreader-neutral-background) !important;
+    border-radius: 10px !important;
+}
+d2l-empty-state-simple {
+    border-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-button-filter > ul > li > a.vui-button {
+    border-color: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-label-text:has(.d2l-button-subtle-content):hover,
+.d2l-label-text:has(.d2l-button-subtle-content):focus,
+.d2l-label-text:has(.d2l-button-subtle-content):active {
+    background-color: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-navigation-centerer {
+    color: inherit !important;
+}
+.d2l-tabs-layout {
+    border-color: var(--darkreader-border--d2l-color-gypsum) !important;
+}
+.d2l-input,
+.d2l-calendar-date,
+.d2l-htmleditor-container {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-collapsible-panel {
+    border: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+    border-radius: 0.4rem !important;
+}
+.d2l-collapsible-panel-divider {
+    border-bottom: 1px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-w2d-flex {
+    border-bottom: 2px solid var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-collapsible-panel scrolled,
+.d2l-collapsible-panel-header,
+.d2l-w2d-collection-fixed {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+.d2l-loading-spinner-bg {
+    fill: var(--darkreader-bg--d2l-color-gypsum) !important;
+}
+.d2l-loading-spinner-bg-stroke {
+    stroke: var(--darkreader-border--d2l-color-mica) !important;
+}
+.d2l-loading-spinner-wrapper svg path,
+.d2l-loading-spinner-wrapper svg circle {
+    fill: var(--darkreader-neutral-background) !important;
+}
+.d2l-twopanelselector-side.d2l-twopanelselector-side-sep {
+    background: var(--darkreader-bg--d2l-color-mica) !important;
+}
+.d2l-le-TreeAccordionItem-anchor::before {
+    background: var(--darkreader-bg--d2l-color-corundum) !important;
+}
+table[class|="moz-header"] {
+    background: none;
+}
+*[style*="color: rgba(0,0,0,"],
+*[style*="color: rgba(0, 0, 0,"],
+*[style*="color:#000"],
+*[style*="color:black"],
+*[style*="color:#282828"],
+*[style*="color:#444"] {
+    color: var(--darkreader-neutral-text) !important;
+}
+*[style*="background:#fff"],
+*[style*="background-color:#fff"] {
+    background: var(--darkreader-neutral-background) !important;
+}
+*[bgcolor="#F5F5F5"],
+*[style*="background-color: #F5F5F5"] {
+    background: var(--darkreader-background-f5f5f5, #1e2021) !important;
+}
+body[style*="background: rgb(255, 255, 255) !important"] *:not(a),
+.body[style*="background-color: rgb(254, 254, 254) !important"] *:not(a) {
+    background-color: var(--darkreader-neutral-background) !important;
+}
+div[style*="www.gstatic.com/android/"] {
+    background: none !important;
+}
+*[style*="background:#f9f9f9"] {
+    background: var(--darkreader-background-f9f9f9, #1b1e1f) !important;
+}
+embed[type="application/pdf"] { filter: invert(100%) contrast(90%); }</style><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/Home-Dh8FZPTK.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/_plugin-vue_export-helper-BTQ8gHAs.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/sharedFrameEvents-0qZ2yOho.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/index-DN3rM4CW.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/useBranding-CVpGK5TD.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/utils.esm-CvkvYRsZ.js"><link rel="stylesheet" crossorigin="" href="widget_data/useBranding-DSFJg_40.css"><style class="darkreader darkreader--sync" media="screen"></style><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/Validators-_eR7dzmG.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/_commonjsHelpers-BosuxZz1.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/vue-dompurify-html-Bb1lQ-LC.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/constants-lVAyZKq6.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/index-CFHgCRyY.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/Icon-DzbDd_Ew.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/Branding-CaImJoI8.js"><link rel="modulepreload" as="script" crossorigin="" href="https://d3smg0hrzo6i7w.cloudfront.net/vite/assets/module-BqxCsuv1.js"></head>
+  <body>
+    <div id="app" class="h-full" data-v-app=""><div class="flex flex-col justify-end h-full is-widget-right"><div class="w-full h-full bg-n-slate-2 dark:bg-n-solid-1 overflow-auto"><div class="relative flex flex-col h-full"><div class="expanded"><header class="header-expanded pt-6 pb-4 px-5 relative box-border w-full bg-transparent"><div class="flex items-start justify-between"><img class="h-12 rounded-full" src="widget_data/New%20UI%20Logo%20(1).png" alt="Avatar"><div data-v-871c3f8e="" class="actions flex items-center gap-3"><!----><!----><button data-v-871c3f8e="" class="button transparent compact close-button"><svg data-v-871c3f8e="" width="24" height="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" class="text-n-slate-12"><path d="m4.397 4.554.073-.084a.75.75 0 0 1 .976-.073l.084.073L12 10.939l6.47-6.47a.75.75 0 1 1 1.06 1.061L13.061 12l6.47 6.47a.75.75 0 0 1 .072.976l-.073.084a.75.75 0 0 1-.976.073l-.084-.073L12 13.061l-6.47 6.47a.75.75 0 0 1-1.06-1.061L10.939 12l-6.47-6.47a.75.75 0 0 1-.072-.976l.073-.084-.073.084Z" fill="currentColor"></path></svg></button></div></div><h2 class="mt-4 text-2xl mb-1.5 font-medium text-n-slate-12 line-clamp-4">Halo Developers 👋</h2><p class="text-lg leading-normal text-n-slate-11 [&amp;_a]:underline line-clamp-6"><p>Terima kasih telah mengunjungi Dicoding! Ada yang bisa kami bantu untuk perjalanan belajarmu?</p>
+</p></header><!----></div><!----><div class="z-50 flex flex-col justify-end flex-1 w-full p-4 gap-4"><div class="flex flex-col gap-3 w-full shadow outline-1 outline outline-n-container rounded-xl bg-n-background dark:bg-n-solid-2 px-5 py-4" unread-count="0"><div class="flex items-center justify-between gap-2"><div class="flex flex-col gap-1"><div class="font-medium text-n-slate-12">Kami sedang tidak tersedia saat ini</div><span has-online-agents="false" class="text-n-slate-11">We will be back online tomorrow</span></div><!----></div><button class="inline-flex items-center gap-1 font-medium text-n-slate-12" style="color: rgb(45, 62, 80); --darkreader-inline-color: var(--darkreader-text-2d3e50, #aec2d2);" data-darkreader-inline-color=""><span>Mulai Percakapan</span><i class="i-lucide-chevron-right size-5 mt-px"></i></button></div><div class="w-full shadow outline-1 outline outline-n-container rounded-xl bg-n-background dark:bg-n-solid-2 px-5 py-4"><div class="flex flex-col gap-3"><h3 class="font-medium text-n-slate-12">Artikel Populer</h3><div class="flex flex-col gap-4"><div class="flex items-center justify-between rounded cursor-pointer text-n-slate-11 hover:text-n-slate-12 gap-2" role="button"><button class="underline-offset-2 leading-6 ltr:text-left rtl:text-right text-base">Terkait Langganan Dicoding</button><span class="i-lucide-chevron-right text-base shrink-0"></span></div><div class="flex items-center justify-between rounded cursor-pointer text-n-slate-11 hover:text-n-slate-12 gap-2" role="button"><button class="underline-offset-2 leading-6 ltr:text-left rtl:text-right text-base">Apa itu Dibantu?</button><span class="i-lucide-chevron-right text-base shrink-0"></span></div><div class="flex items-center justify-between rounded cursor-pointer text-n-slate-11 hover:text-n-slate-12 gap-2" role="button"><button class="underline-offset-2 leading-6 ltr:text-left rtl:text-right text-base">Cara Update Data Profil Akun Dicoding</button><span class="i-lucide-chevron-right text-base shrink-0"></span></div><div class="flex items-center justify-between rounded cursor-pointer text-n-slate-11 hover:text-n-slate-12 gap-2" role="button"><button class="underline-offset-2 leading-6 ltr:text-left rtl:text-right text-base">Cara Redeem Code Untuk Meningkatkan Point Dicoding</button><span class="i-lucide-chevron-right text-base shrink-0"></span></div><div class="flex items-center justify-between rounded cursor-pointer text-n-slate-11 hover:text-n-slate-12 gap-2" role="button"><button class="underline-offset-2 leading-6 ltr:text-left rtl:text-right text-base">Apa Itu Dicoding Jobs Platform?</button><span class="i-lucide-chevron-right text-base shrink-0"></span></div><div class="flex items-center justify-between rounded cursor-pointer text-n-slate-11 hover:text-n-slate-12 gap-2" role="button"><button class="underline-offset-2 leading-6 ltr:text-left rtl:text-right text-base">Bagaimana cara memasukkan kode diskon / promo?</button><span class="i-lucide-chevron-right text-base shrink-0"></span></div></div><div><button class="font-medium tracking-wide inline-flex" style="color: rgb(45, 62, 80); --darkreader-inline-color: var(--darkreader-text-2d3e50, #aec2d2);" data-darkreader-inline-color=""><span>Lihat semua artikel</span></button></div></div><!----></div></div><div class="px-0 py-3 flex justify-center"><a href="https://www.chatwoot.com/?utm_source=www.dicoding.com&amp;utm_medium=widget&amp;utm_campaign=branding" rel="noreferrer noopener nofollow" target="_blank" class="branding--link text-n-slate-11 hover:text-n-slate-12 cursor-pointer text-xs inline-flex grayscale-[1] hover:grayscale-0 hover:opacity-100 opacity-90 no-underline justify-center items-center leading-3"><img class="ltr:mr-1 rtl:ml-1 max-w-3 max-h-3" alt="Chatwoot" src="widget_data/logo_thumbnail.svg"><span>Powered by Chatwoot</span></a></div></div></div></div></div>
+    
+  
+
+</body></html>

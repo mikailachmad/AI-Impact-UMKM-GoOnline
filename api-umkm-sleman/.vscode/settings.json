@@ -1,0 +1,4 @@
+{
+  "appService.defaultWebAppToDeploy": "/subscriptions/57c1cc62-8d7a-4fcb-bba9-77fefebffc9d/resourceGroups/appsvc_linux_indonesiacentral/providers/Microsoft.Web/sites/api-umkm-sleman-2026",
+  "appService.deploySubpath": "."
+}
