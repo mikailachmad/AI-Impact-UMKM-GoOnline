@@ -1,6 +1,10 @@
-export const API_URL =
-  import.meta.env.VITE_API_URL ||
-  "https://api-umkm-sleman-2026-euhcecfvdvgrexft.indonesiacentral-01.azurewebsites.net/";
+const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+
+const response = await fetch(`${API_URL}/predict`, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(data),
+});
 
 /**
  * Format currency to IDR
