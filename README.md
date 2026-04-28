@@ -1,25 +1,56 @@
-# AI-Impact-UMKM-GoOnline
-
-## Problem Statement
-
-UMKM menghadapi tekanan yang semakin tinggi untuk beralih ke digital akibat perubahan perilaku konsumen dan meningkatnya persaingan berbasis platform. Namun, keterbatasan dalam kapabilitas digital, sumberdaya, serta kurangnya solusi yang sederhana dan relevan menyebabkan banyak UMKM mengalami keterlambatan atau kegagalan dalam mengadopsi digitalisasi secara efektif sehingga menghambat pertumbuhan dan daya saing mereka di era perekonomian digital.
-
----
-
-## Research Questions
-
-Penelitian ini bertujuan untuk menjawab beberapa pertanyaan utama berikut:
-
-1. **Faktor apa saja yang memicu UMKM untuk mempercepat mobilisasinya pada digitalization approach?**  
-2. **Apa kendala utama mereka sehingga terdapat keterlambatan atau bahkan belum beralih ke digital mobility?**  
-3. **Main fitur apa yang sekiranya akan paling dibutuhkan mereka semisal mereka berkesempatan untuk memiliki website penjualan sendiri?**
+<div align="center">
+  <h1>🚀 LapaKita</h1>
+  <p><b>AI-Powered Digitalization Readiness Predictor & Web Builder untuk UMKM Sleman</b></p>
+  
+  [![Status](https://img.shields.io/badge/Status-Live-success.svg)](#) 
+  [![Backend](https://img.shields.io/badge/Backend-Flask_|_Azure-blue.svg)](#) 
+  [![Frontend](https://img.shields.io/badge/Frontend-Bootstrap_|_Vercel-orange.svg)](#)
+  [![Model](https://img.shields.io/badge/AI-Scikit_Learn-yellow.svg)](#)
+</div>
 
 ---
 
-## Objective
+> **💡 Akses Langsung (Live Demo):**
+> * **🔗 Frontend (Vercel):** `[ISI LINK VERCEL LU DI SINI, misal: https://lapakita-frontend.vercel.app]`
+> * **⚙️ Backend API (Azure):** `https://api-umkm-sleman-2026.azurewebsites.net/predict`
+> * **📄 Dokumen Proposal:** Silakan cek di folder `/docs`
 
-Melalui penelitian ini, diharapkan dapat:
-- Mengidentifikasi faktor pendorong dan penghambat digitalisasi UMKM  
-- Memahami kebutuhan nyata UMKM dalam membangun kehadiran digital  
-- Memberikan rekomendasi fitur yang relevan dan aplikatif untuk website penjualan UMKM  
+## 📌 Latar Belakang Masalah
+Era perekonomian digital mendesak UMKM beradaptasi. Namun, temuan data kami (5.000 data sintetis berbasis profil Kabupaten Sleman) menunjukkan bahwa ketidaktahuan teknis (*skill gap*), keterbatasan sumber daya produksi, dan kompleksitas pengaturan teknologi menjadi penghambat utama. Terdapat *digital divide* spasial yang signifikan, di mana wilayah urban seperti Gamping memimpin (42,6% *go-online rate*), sementara wilayah rural seperti Tempel tertinggal di angka 14,9%. 
 
+**LapaKita hadir untuk memangkas kerumitan teknis tersebut.**
+
+## 🎯 Solusi yang Ditawarkan
+LapaKita berfungsi sebagai Asisten Ekosistem Digital dengan tiga pilar utama:
+1. **Mesin Prediksi Kesiapan Digital (AI Readiness Predictor):** Menghitung probabilitas kesiapan UMKM untuk *go-online* secara instan berdasarkan parameter bisnis spesifik (Sektor, Skala, Omset, dll).
+2. **Smart Insight Generator:** Menerjemahkan skor prediksi AI menjadi wawasan teks dan rekomendasi tindakan strategis (Misal: "Fokus Integrasi Website" atau "Pendampingan Intensif via WhatsApp Business").
+3. **Website Builder Integrator:** UMKM yang dinyatakan siap (>50%) akan langsung diarahkan untuk memiliki toko *online* (lengkap dengan katalog visual dan sistem *checkout*) tanpa perlu keahlian *coding*.
+
+## 🛠️ Arsitektur Sistem & Teknologi
+Proyek ini mengadopsi pemisahan arsitektur *Frontend* dan *Backend* secara tegas (*decoupled architecture*) untuk skalabilitas dan performa maksimal.
+
+* **Machine Learning Model:**
+    * **Algoritma:** Logistic Regression / Scikit-Learn
+    * **Dataset:** 5.000 Baris Data Sintetis UMKM Kabupaten Sleman
+    * **Akurasi Model:** 92.6%
+* **Backend API:**
+    * **Framework:** Python Flask (REST API)
+    * **Deployment:** Microsoft Azure App Service (Tier F1)
+    * **Fitur Kunci:** `Flask-CORS` Enabled, Endpoint POST `/predict`
+* **Frontend User Interface:**
+    * **Stack:** HTML5, CSS3 (Bootstrap 5), JavaScript (Fetch API)
+    * **Deployment:** Vercel
+
+## 📂 Struktur Repositori
+```text
+LapaKita/
+├── backend/            # Kodingan Server Python Flask & Model AI
+│   ├── app.py          # API Endpoint Logic
+│   ├── model_final_umkm.pkl # Trained Machine Learning Model
+│   └── requirements.txt
+├── frontend/           # Kodingan User Interface
+│   └── index.html      # Tampilan Dashboard Utama
+├── notebooks/          # Eksperimen Data & Pelatihan Model
+│   └── pengolahan_UMKM_6.ipynb # Final Data Prep & Training Script
+├── data/               # Data Dictionary & Struktur Sintetis
+└── docs/               # Proposal, Pitch Deck, & Analisis Spasial PDF
