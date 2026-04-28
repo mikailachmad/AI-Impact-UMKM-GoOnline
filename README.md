@@ -14,7 +14,7 @@
 
 > **💡 Akses Langsung (Live Demo):**
 > * **🔗 Frontend (Vercel):** `[https://lapakita-umkm.vercel.app]`
-> * **⚙️ Backend API (Azure):** `https://api-umkm-sleman-2026.azurewebsites.net/predict`
+> * **⚙️ Backend API (Azure):** `https://api-umkm-sleman-2026-euhcecfvdvgrexft.indonesiacentral-01.azurewebsites.net/`
 > * **📄 Dokumen Proposal:** Silakan cek di folder `/docs`
 
 ## 📌 Latar Belakang Masalah
