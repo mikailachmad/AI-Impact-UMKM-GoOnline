@@ -43,6 +43,12 @@ Proyek ini mengadopsi pemisahan arsitektur *Frontend* dan *Backend* secara tegas
     * **Stack:** HTML5, CSS3 (Bootstrap 5), JavaScript (Fetch API)
     * **Deployment:** Vercel
 
+## 👥 Kontributor
+Proyek yang tim kami ajukan ke Datathon 2026 by Dicoding ini memiliki tiga kontributor, dengan pembagian peran sebagai berikut:
+1. Mikail Achmad sebagai Tech & Product Builder, ia yang merancang bagaimana cara membangun solusi digitalisasi UMKM
+2. Dimas Ananda Saputra sebagai Product & Business Strategy, ia yang mengindentifikasi latar belakang, solusi dari kesulitan digitalisasi UMKM di Sleman.
+3. Yudha Nata Buana sebagai Growth & Marketing Strategy, ia yang memastikan solusi digitalisasi UMKM ini relevan dipakai, dan terus berkembang.
+
 ## 📂 Struktur Repositori
 ```text
 LapaKita/
