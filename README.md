@@ -45,7 +45,7 @@ Proyek ini mengadopsi pemisahan arsitektur *Frontend* dan *Backend* (*decoupled 
 
 ## 👥 Kontributor
 Proyek yang tim kami ajukan ke Datathon 2026 by Dicoding ini memiliki tiga kontributor, dengan pembagian peran sebagai berikut:
-1. **Mikail Achmad** (Ilmu Komputer UGM, 2024) sebagai Tech & Product Builder, ia yang merancang bagaimana cara membangun solusi digitalisasi UMKM. Ia yang mengolah dataset studi kasus 5000 UMKM di Sleman, menyambungkannya ke Azure, membuat tampilan website yang user-friendly kemudian membuat domain website LapaKita melalui Vercel.
+1. **Mikail Achmad** (Ilmu Komputer UGM, 2024) sebagai Tech & Product Builder, ia yang merancang bagaimana cara membangun solusi digitalisasi UMKM. Selain itu, ia juga yang mengolah dataset studi kasus 5000 UMKM di Sleman, menyambungkannya ke Azure, membuat tampilan website yang user-friendly kemudian membuat domain website LapaKita melalui Vercel.
 2. **Dimas Ananda Saputra** (Ilmu Ekonomi UGM, 2025) sebagai Product & Business Strategy, ia yang mengindentifikasi latar belakang, solusi dari kesulitan digitalisasi UMKM di Sleman.
 3. **Yudha Nata Buana** (Biologi UGM, 2025) sebagai Growth & Marketing Strategy, ia yang memastikan solusi digitalisasi UMKM ini relevan dipakai, dan terus berkembang.
 
