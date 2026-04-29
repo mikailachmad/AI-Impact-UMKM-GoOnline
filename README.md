@@ -10,26 +10,26 @@
 
 ---
 
-**LapaKita adalah solusi cerdas berbasis kecerdasan buatan (AI) yang dirancang khusus untuk memecahkan kesulitan digitalisasi UMKM di wilayah Kabupaten Sleman. Proyek ini diajukan untuk AI Impact Challenge - Datathon Dicoding Indonesia.**
+**LapaKita merupakan solusi yang kami kembangkan untuk lomba Datathon by Dicoding. LapaKita berbasis kecerdasan buatan (AI) yang dirancang khusus untuk memecahkan kesulitan digitalisasi UMKM di wilayah Kabupaten Sleman. Proyek ini diajukan untuk AI Impact Challenge - Datathon Dicoding Indonesia.**
 
 > **💡 Akses Langsung (Live Demo):**
-> * **🔗 Frontend (Vercel):** `[https://lapakita-umkm.vercel.app]`
+> * **🔗 Frontend (Vercel):** `https://lapakita-umkm.vercel.app`
 > * **⚙️ Backend API (Azure):** `https://api-umkm-sleman-2026-euhcecfvdvgrexft.indonesiacentral-01.azurewebsites.net/`
 > * **📄 Dokumen Proposal:** Silakan cek di folder `/docs`
 
 ## 📌 Latar Belakang Masalah
-Era perekonomian digital mendesak UMKM beradaptasi. Namun, temuan data kami (5.000 data sintetis berbasis profil Kabupaten Sleman) menunjukkan bahwa ketidaktahuan teknis (*skill gap*), keterbatasan sumber daya produksi, dan kompleksitas pengaturan teknologi menjadi penghambat utama. Terdapat *digital divide* spasial yang signifikan, di mana wilayah urban seperti Gamping memimpin (42,6% *go-online rate*), sementara wilayah rural seperti Tempel tertinggal di angka 14,9%. 
+Era perekonomian digital mendesak UMKM beradaptasi. Namun, berdasarkan temuan dari data yang telah kami amati, (5.000 data sintetis berbasis profil Kabupaten Sleman) menunjukkan bahwa ketidaktahuan teknis (*skill gap*), keterbatasan sumber daya produksi, dan kompleksitas pengaturan teknologi menjadi penghambat utama. Terdapat *digital divide* spasial yang signifikan, di mana wilayah urban seperti Gamping memimpin (42,6% *go-online rate*), sementara wilayah rural seperti Tempel tertinggal di angka 14,9%. 
 
 **LapaKita hadir untuk memangkas kerumitan teknis tersebut.**
 
 ## 🎯 Solusi yang Ditawarkan
 LapaKita berfungsi sebagai Asisten Ekosistem Digital dengan tiga pilar utama:
-1. **Mesin Prediksi Kesiapan Digital (AI Readiness Predictor):** Menghitung probabilitas kesiapan UMKM untuk *go-online* secara instan berdasarkan parameter bisnis spesifik (Sektor, Skala, Omset, dll).
-2. **Smart Insight Generator:** Menerjemahkan skor prediksi AI menjadi wawasan teks dan rekomendasi tindakan strategis (Misal: "Fokus Integrasi Website" atau "Pendampingan Intensif via WhatsApp Business").
+1. **Mesin Prediksi Kesiapan Digital (AI Readiness Predictor):** Menghitung probabilitas kesiapan UMKM untuk *go-online* secara instan berdasarkan parameter UMKM yang spesifik (Sektor, Skala, Omset, dll).
+2. **Smart Insight Generator:** Menerjemahkan skor prediksi AI menjadi wawasan teks dan rekomendasi tindakan strategis yang memudahkan pelaku UMKM mengambil insight dari hasil prediksi (Contoh: "Fokus Integrasi Website" atau "Pendampingan Intensif via WhatsApp Business").
 3. **Website Builder Integrator:** UMKM yang dinyatakan siap (>50%) akan langsung diarahkan untuk memiliki toko *online* (lengkap dengan katalog visual dan sistem *checkout*) tanpa perlu keahlian *coding*.
 
 ## 🛠️ Arsitektur Sistem & Teknologi
-Proyek ini mengadopsi pemisahan arsitektur *Frontend* dan *Backend* secara tegas (*decoupled architecture*) untuk skalabilitas dan performa maksimal.
+Proyek ini mengadopsi pemisahan arsitektur *Frontend* dan *Backend* (*decoupled architecture*) untuk skalabilitas dan performa maksimal. Kami juga mengimplementasikan Microsoft Azure untuk merekap dan mengeksekusi infrastruktur dataset 5000 UMKM berbasis komputasi awan yang menjamin stabilitas sistem secara efisien.
 
 * **Machine Learning Model:**
     * **Algoritma:** Logistic Regression / Scikit-Learn
@@ -45,9 +45,9 @@ Proyek ini mengadopsi pemisahan arsitektur *Frontend* dan *Backend* secara tegas
 
 ## 👥 Kontributor
 Proyek yang tim kami ajukan ke Datathon 2026 by Dicoding ini memiliki tiga kontributor, dengan pembagian peran sebagai berikut:
-1. **Mikail Achmad** sebagai Tech & Product Builder, ia yang merancang bagaimana cara membangun solusi digitalisasi UMKM
-2. **Dimas Ananda Saputra** sebagai Product & Business Strategy, ia yang mengindentifikasi latar belakang, solusi dari kesulitan digitalisasi UMKM di Sleman.
-3. **Yudha Nata Buana** sebagai Growth & Marketing Strategy, ia yang memastikan solusi digitalisasi UMKM ini relevan dipakai, dan terus berkembang.
+1. **Mikail Achmad** (Ilmu Komputer UGM, 2024) sebagai Tech & Product Builder, ia yang merancang bagaimana cara membangun solusi digitalisasi UMKM. Ia yang mengolah dataset studi kasus 5000 UMKM di Sleman, menyambungkannya ke Azure, membuat tampilan website yang user-friendly kemudian membuat domain website LapaKita melalui Vercel.
+2. **Dimas Ananda Saputra** (Ilmu Ekonomi UGM, 2025) sebagai Product & Business Strategy, ia yang mengindentifikasi latar belakang, solusi dari kesulitan digitalisasi UMKM di Sleman.
+3. **Yudha Nata Buana** (Biologi UGM, 2025) sebagai Growth & Marketing Strategy, ia yang memastikan solusi digitalisasi UMKM ini relevan dipakai, dan terus berkembang.
 
 ## 📂 Struktur Repositori
 ```text
